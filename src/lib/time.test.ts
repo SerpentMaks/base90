@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { addDays, daysBetween, formatDateRu, moscowClock, studyDate } from './time';
+import { addDays, daysBetween, formatDateRu, moscowClock, nextStudyDayStartMs, studyDate, studyDayStartMs } from './time';
 
 describe('studyDate (Москва, граница 04:00)', () => {
   it('03:59 МСК — ещё вчерашний учебный день', () => {
@@ -39,5 +39,17 @@ describe('addDays / daysBetween', () => {
 describe('formatDateRu', () => {
   it('день недели с заглавной, месяц — строчными', () => {
     expect(formatDateRu('2026-11-16')).toBe('Понедельник, 16 ноября');
+  });
+});
+
+describe('studyDayStartMs / nextStudyDayStartMs', () => {
+  it('учебные сутки начинаются в 04:00 МСК = 01:00 UTC', () => {
+    expect(new Date(studyDayStartMs('2026-11-17')).toISOString()).toBe('2026-11-17T01:00:00.000Z');
+  });
+  it('в 02:00 МСК следующие учебные сутки — сегодня в 04:00', () => {
+    expect(new Date(nextStudyDayStartMs(new Date('2026-11-16T23:00:00Z'))).toISOString()).toBe('2026-11-17T01:00:00.000Z');
+  });
+  it('в 20:00 МСК — завтра в 04:00', () => {
+    expect(new Date(nextStudyDayStartMs(new Date('2026-11-17T17:00:00Z'))).toISOString()).toBe('2026-11-18T01:00:00.000Z');
   });
 });

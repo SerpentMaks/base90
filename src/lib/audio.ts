@@ -50,3 +50,53 @@ export function playClip(path: string, opts: ClipOptions = {}): Promise<void> {
 export function stopClip(): void {
   el?.pause();
 }
+
+let silenceUrl: string | null = null;
+
+/** 50 мс тишины (WAV 8 кГц, 8 бит). */
+function silence(): string {
+  if (silenceUrl) return silenceUrl;
+  const n = 400;
+  const buf = new Uint8Array(44 + n);
+  const dv = new DataView(buf.buffer);
+  const str = (o: number, s: string) => [...s].forEach((c, i) => dv.setUint8(o + i, c.charCodeAt(0)));
+  str(0, 'RIFF');
+  dv.setUint32(4, 36 + n, true);
+  str(8, 'WAVEfmt ');
+  dv.setUint32(16, 16, true);
+  dv.setUint16(20, 1, true);
+  dv.setUint16(22, 1, true);
+  dv.setUint32(24, 8000, true);
+  dv.setUint32(28, 8000, true);
+  dv.setUint16(32, 1, true);
+  dv.setUint16(34, 8, true);
+  str(36, 'data');
+  dv.setUint32(40, n, true);
+  buf.fill(128, 44);
+  silenceUrl = URL.createObjectURL(new Blob([buf], { type: 'audio/wav' }));
+  return silenceUrl;
+}
+
+/**
+ * «Разблокировать» звук на iOS: вызвать синхронно в обработчике тапа «Начать».
+ * После этого общий <audio> можно запускать и без жеста (автоозвучка карточек).
+ */
+export function unlockAudio(): void {
+  const a = player();
+  if (a.dataset.unlocked) return;
+  a.src = silence();
+  a.play()
+    .then(() => {
+      a.dataset.unlocked = '1';
+    })
+    .catch(() => {});
+  try {
+    if ('speechSynthesis' in window) {
+      const u = new SpeechSynthesisUtterance(' ');
+      u.volume = 0;
+      window.speechSynthesis.speak(u);
+    }
+  } catch {
+    /* нет синтеза — не страшно */
+  }
+}

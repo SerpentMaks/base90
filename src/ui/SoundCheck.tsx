@@ -69,8 +69,8 @@ export function SoundCheck() {
 
   return (
     <section className="rounded-2xl border border-line bg-surface p-4">
-      <h2 className="font-semibold">Голос Safari (запасной)</h2>
-      <p className="mt-1 text-sm text-muted">Должен прозвучать американский голос: «Hello! Welcome to Base ninety».</p>
+      <h2 className="font-semibold">Запасной голос (Safari)</h2>
+      <p className="mt-1 text-sm text-muted">Звучит только там, где нет записи нейроголосом (например, реплики из твоих субтитров).</p>
       <button
         onClick={() => run(false)}
         disabled={!supported}

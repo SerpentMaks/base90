@@ -1,0 +1,92 @@
+[
+  {
+    "id": "w_know", "lemma": "know", "rank": 1, "pos": ["verb"], "ipa": "/noʊ/",
+    "ru": ["знать"], "forms": ["knows", "knew", "known", "knowing"],
+    "note": "k в начале не читается: know звучит как no.",
+    "examples": [
+      { "en": "I don't know.", "ru": "Я не знаю.", "source": "generated" },
+      { "en": "Do you know him?", "ru": "Ты его знаешь?", "source": "generated" }
+    ]
+  },
+  {
+    "id": "w_think", "lemma": "think", "rank": 2, "pos": ["verb"], "ipa": "/θɪŋk/",
+    "ru": ["думать", "считать"], "forms": ["thinks", "thought", "thinking"],
+    "note": "th — кончик языка между зубами. Не «синк» и не «финк».",
+    "examples": [
+      { "en": "I think so.", "ru": "Думаю, да.", "source": "generated" },
+      { "en": "What do you think?", "ru": "Что ты думаешь?", "source": "generated" }
+    ]
+  },
+  {
+    "id": "w_go", "lemma": "go", "rank": 3, "pos": ["verb"], "ipa": "/ɡoʊ/",
+    "ru": ["идти", "ехать"], "forms": ["goes", "went", "gone", "going"],
+    "note": "Звучит «гоу», а не «го»: звук в конце скользит к «у».",
+    "examples": [
+      { "en": "Let's go.", "ru": "Пойдём.", "source": "generated" },
+      { "en": "I go to school every day.", "ru": "Я хожу в школу каждый день.", "source": "generated" }
+    ]
+  },
+  {
+    "id": "w_want", "lemma": "want", "rank": 4, "pos": ["verb"], "ipa": "/wɑːnt/",
+    "ru": ["хотеть"], "forms": ["wants", "wanted", "wanting"],
+    "note": "w — губы трубочкой, как в начале «уо». Это не русское «в».",
+    "examples": [
+      { "en": "I want coffee.", "ru": "Я хочу кофе.", "source": "generated" },
+      { "en": "Do you want to go?", "ru": "Хочешь пойти?", "source": "generated" }
+    ]
+  },
+  {
+    "id": "w_good", "lemma": "good", "rank": 5, "pos": ["adjective"], "ipa": "/ɡʊd/",
+    "ru": ["хороший"], "forms": ["better", "best"],
+    "note": "d в конце звонкое: «гуд», а не «гут».",
+    "examples": [
+      { "en": "That's good.", "ru": "Это хорошо.", "source": "generated" },
+      { "en": "Good morning!", "ru": "Доброе утро!", "source": "generated" }
+    ]
+  },
+  {
+    "id": "w_time", "lemma": "time", "rank": 6, "pos": ["noun"], "ipa": "/taɪm/",
+    "ru": ["время", "раз"], "forms": ["times"],
+    "note": "What time is it? — «Который час?». three times — «три раза».",
+    "examples": [
+      { "en": "What time is it?", "ru": "Который час?", "source": "generated" },
+      { "en": "I don't have time.", "ru": "У меня нет времени.", "source": "generated" }
+    ]
+  },
+  {
+    "id": "w_people", "lemma": "people", "rank": 7, "pos": ["noun"], "ipa": "/ˈpiːpəl/",
+    "ru": ["люди"],
+    "note": "people — уже множественное число: people are, а не people is.",
+    "examples": [
+      { "en": "People are nice here.", "ru": "Люди здесь милые.", "source": "generated" },
+      { "en": "I like these people.", "ru": "Мне нравятся эти люди.", "source": "generated" }
+    ]
+  },
+  {
+    "id": "w_come", "lemma": "come", "rank": 8, "pos": ["verb"], "ipa": "/kʌm/",
+    "ru": ["приходить", "приезжать"], "forms": ["comes", "came", "coming"],
+    "note": "Come on! — одна фраза: «Давай!», «Ну же!».",
+    "examples": [
+      { "en": "Come here.", "ru": "Иди сюда.", "source": "generated" },
+      { "en": "Can you come tomorrow?", "ru": "Ты можешь прийти завтра?", "source": "generated" }
+    ]
+  },
+  {
+    "id": "w_look", "lemma": "look", "rank": 9, "pos": ["verb"], "ipa": "/lʊk/",
+    "ru": ["смотреть", "выглядеть"], "forms": ["looks", "looked", "looking"],
+    "note": "Смотреть НА что-то — look at: look at me — «посмотри на меня».",
+    "examples": [
+      { "en": "Look at this.", "ru": "Посмотри на это.", "source": "generated" },
+      { "en": "You look tired.", "ru": "Ты выглядишь уставшим.", "source": "generated" }
+    ]
+  },
+  {
+    "id": "w_really", "lemma": "really", "rank": 10, "pos": ["adverb"], "ipa": "/ˈriːəli/",
+    "ru": ["правда", "действительно", "очень"],
+    "note": "Really? с вопросом — «Правда?», «Серьёзно?».",
+    "examples": [
+      { "en": "Really?", "ru": "Правда?", "source": "generated" },
+      { "en": "I really like it.", "ru": "Мне это очень нравится.", "source": "generated" }
+    ]
+  }
+]

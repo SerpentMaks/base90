@@ -37,3 +37,13 @@ export function formatDateRu(date: string): string {
   );
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
+
+/** Момент начала учебных суток date (04:00 по Москве) в мс. */
+export function studyDayStartMs(date: string): number {
+  return Date.parse(`${date}T00:00:00Z`) + (DAY_BOUNDARY_HOUR * 60 - MOSCOW_OFFSET_MIN) * MS_PER_MIN;
+}
+
+/** Начало следующих учебных суток после момента at. */
+export function nextStudyDayStartMs(at: Date = new Date()): number {
+  return studyDayStartMs(addDays(studyDate(at), 1));
+}

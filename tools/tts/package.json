@@ -1,0 +1,9 @@
+{
+  "name": "base90-tts",
+  "private": true,
+  "type": "module",
+  "description": "Генерация озвучки курса нейроголосом Kokoro-82M. Запускается локально, не в CI.",
+  "dependencies": {
+    "kokoro-js": "1.2.1"
+  }
+}

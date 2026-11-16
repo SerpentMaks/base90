@@ -10,6 +10,8 @@
  *  - cancel() сразу перед speak() иногда «съедает» новую фразу → отменяем только если
  *    что-то реально звучит, и тогда говорим с небольшой паузой.
  */
+import { getSettings, updateSettings } from './settings';
+
 export type SpeakOptions = { rate?: number; voiceURI?: string; useDefaultVoice?: boolean };
 
 export type TtsEvent = { t: number; type: string; detail?: string };
@@ -120,24 +122,13 @@ export function usVoices<V extends VoiceLike>(voices: V[] = voicesCache as unkno
   return usable.length ? usable : us;
 }
 
-const VOICE_KEY = 'base90.voiceURI';
-
-/** Выбранный пользователем голос (до этапа 2 — в localStorage). */
+/** Выбранный голос Safari хранится в настройках (Dexie), здесь — синхронная копия. */
 export function getPreferredVoiceURI(): string | null {
-  try {
-    return localStorage.getItem(VOICE_KEY);
-  } catch {
-    return null;
-  }
+  return getSettings().safariVoiceURI;
 }
 
 export function setPreferredVoiceURI(uri: string | null): void {
-  try {
-    if (uri) localStorage.setItem(VOICE_KEY, uri);
-    else localStorage.removeItem(VOICE_KEY);
-  } catch {
-    /* приватный режим — просто не запоминаем */
-  }
+  void updateSettings({ safariVoiceURI: uri });
   listeners.forEach((fn) => fn());
 }
 
