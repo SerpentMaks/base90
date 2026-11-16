@@ -75,27 +75,40 @@ export function allVoices(): SpeechSynthesisVoice[] {
 
 type VoiceLike = Pick<SpeechSynthesisVoice, 'name' | 'lang' | 'voiceURI' | 'localService'>;
 
-export type VoiceQuality = 'premium' | 'enhanced' | 'standard' | 'robotic' | 'novelty';
+export type VoiceQuality = 'premium' | 'enhanced' | 'standard' | 'basic' | 'robotic' | 'novelty';
+
+/** Особое значение выбора: не задавать голос, пусть iOS возьмёт системный для en-US. */
+export const SYSTEM_VOICE = '__system__';
 
 /** «Голоса-приколы» Apple (звенят, булькают, поют) — никогда не выбираем. */
 const NOVELTY = /^(bad news|bahh|bells|boing|bubbles|cellos|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|deranged|hysterical|pipe organ)\b/i;
-/** Старые синтетические голоса: разборчивы, но звучат как робот. */
-const ROBOTIC = /^(albert|fred|junior|kathy|ralph|eddy|flo|grandma|grandpa|reed|rocko|sandy|shelley|princess|vicki|victoria|bruce|agnes)\b/i;
+/** Голоса MacinTalk из 90-х: звучат как робот. */
+const ROBOTIC = /^(albert|fred|junior|kathy|ralph|princess|vicki|victoria|bruce|agnes)\b/i;
+/**
+ * Eloquence: простой синтез, но заметно человечнее MacinTalk. С iOS 18 Safari часто отдаёт
+ * сайтам ТОЛЬКО их (+ MacinTalk и «приколы»), без Samantha и без скачанных голосов.
+ */
+const ELOQUENCE = /^(eddy|flo|grandma|grandpa|reed|rocko|sandy|shelley)\b/i;
+/** Порядок внутри Eloquence: чёткие взрослые голоса выше «бабушки/дедушки». */
+const ELOQUENCE_ORDER = ['flo', 'reed', 'sandy', 'shelley', 'eddy', 'rocko', 'grandma', 'grandpa'];
 /** Естественные голоса Apple/Google/Microsoft. */
 const NATURAL = /^(samantha|ava|allison|susan|tom|zoe|evan|nathan|joelle|nicky|noelle|aaron|alex|siri|google us english|microsoft (aria|jenny|guy|ana|christopher|eric|michelle|roger|steffan))/i;
 
 export function voiceQuality(v: VoiceLike): VoiceQuality {
   const id = `${v.name} ${v.voiceURI}`;
   if (NOVELTY.test(v.name)) return 'novelty';
-  if (ROBOTIC.test(v.name) || /eloquence/i.test(v.voiceURI)) return 'robotic';
+  if (ROBOTIC.test(v.name)) return 'robotic';
+  if (ELOQUENCE.test(v.name) || /eloquence/i.test(v.voiceURI)) return 'basic';
   if (/premium|премиум/i.test(id)) return 'premium';
   if (/enhanced|улучш|neural|natural|online/i.test(id)) return 'enhanced';
   return 'standard';
 }
 
 function voiceScore(v: VoiceLike): number {
-  const q = { premium: 40, enhanced: 30, standard: 10, robotic: -20, novelty: -100 }[voiceQuality(v)];
-  return q + (NATURAL.test(v.name) ? 5 : 0) + (/^samantha|^ava|^zoe/i.test(v.name) ? 2 : 0);
+  const quality = voiceQuality(v);
+  const q = { premium: 40, enhanced: 30, standard: 20, basic: 0, robotic: -20, novelty: -100 }[quality];
+  const eloq = quality === 'basic' ? ELOQUENCE_ORDER.findIndex((n) => v.name.toLowerCase().startsWith(n)) : -1;
+  return q + (NATURAL.test(v.name) ? 5 : 0) + (/^samantha|^ava|^zoe/i.test(v.name) ? 2 : 0) + (eloq >= 0 ? (8 - eloq) / 10 : 0);
 }
 
 /** Американские голоса: лучшие первыми, «приколы» убраны (если есть хоть что-то другое). */
@@ -128,8 +141,13 @@ export function setPreferredVoiceURI(uri: string | null): void {
   listeners.forEach((fn) => fn());
 }
 
-/** Голос, которым будем говорить: выбранный пользователем или лучший доступный. */
+export function usesSystemVoice(): boolean {
+  return getPreferredVoiceURI() === SYSTEM_VOICE;
+}
+
+/** Голос, которым будем говорить: выбранный пользователем или лучший доступный; undefined — системный. */
 export function currentVoice(): SpeechSynthesisVoice | undefined {
+  if (usesSystemVoice()) return undefined;
   const list = usVoices(allVoices());
   const pref = getPreferredVoiceURI();
   return list.find((v) => v.voiceURI === pref) ?? list[0];

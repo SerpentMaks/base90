@@ -23,6 +23,11 @@ const IOS = [
 ];
 
 describe('выбор голоса', () => {
+  it('iOS 18+: без Samantha первой идёт Eloquence (Flo), а не Albert/Fred', () => {
+    const ios18 = IOS.filter((x) => x.name !== 'Samantha');
+    expect(usVoices(ios18)[0]?.name).toBe('Flo (английский (США))');
+    expect(voiceQuality(usVoices(ios18)[0]!)).toBe('basic');
+  });
   it('без скачанных голосов первой идёт Samantha, а не Albert/Bad News', () => {
     expect(usVoices(IOS)[0]?.name).toBe('Samantha');
   });

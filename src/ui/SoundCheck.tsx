@@ -6,6 +6,8 @@ import {
   onTtsChange,
   playBeep,
   setPreferredVoiceURI,
+  SYSTEM_VOICE,
+  usesSystemVoice,
   speak,
   ttsLog,
   ttsSupported,
@@ -20,6 +22,7 @@ const QUALITY_LABEL: Record<VoiceQuality, string> = {
   premium: '★ премиум',
   enhanced: 'улучшенный',
   standard: 'обычный',
+  basic: 'простой',
   robotic: 'роботизированный',
   novelty: 'шуточный',
 };
@@ -88,13 +91,14 @@ export function SoundCheck() {
           <div className="mt-1 flex gap-2">
             <select
               id="voice"
-              value={voice?.voiceURI ?? ''}
+              value={usesSystemVoice() ? SYSTEM_VOICE : (voice?.voiceURI ?? '')}
               onChange={(e) => {
                 setPreferredVoiceURI(e.target.value || null);
                 setState('idle');
               }}
               className="min-h-12 min-w-0 flex-1 rounded-xl border border-line bg-bg px-3 text-base"
             >
+              <option value={SYSTEM_VOICE}>Системный голос iPhone</option>
               {us.map((v) => (
                 <option key={v.voiceURI} value={v.voiceURI}>
                   {shortName(v.name)} — {QUALITY_LABEL[voiceQuality(v)]}
@@ -111,9 +115,9 @@ export function SoundCheck() {
           </div>
           {!hasGood && (
             <p className="mt-2 text-sm text-muted">
-              Голоса получше можно скачать бесплатно: «Настройки → Универсальный доступ → Устное содержимое → Голоса →
-              Английский» → выбери, например, <b className="text-ink">Ava</b> или <b className="text-ink">Zoe</b> с пометкой
-              «улучшенный»/«премиум» (США) и нажми загрузку. Потом закрой и снова открой Base90.
+              С iOS 18 Safari не даёт сайтам хорошие голоса iPhone (даже скачанные) — остаются только простые синтезаторы.
+              Попробуй «Системный голос iPhone» и голоса с пометкой «простой». Скоро в Base90 будут свои записи качественным
+              нейроголосом.
             </p>
           )}
         </div>
@@ -150,7 +154,7 @@ export function SoundCheck() {
             {voices.length} (en-US: {us.length})
           </dd>
           <dt className="text-muted">Голос</dt>
-          <dd className="break-words">{voice ? `${voice.name} [${voiceQuality(voice)}]` : '—'}</dd>
+          <dd className="break-words">{usesSystemVoice() ? 'системный (не задан)' : voice ? `${voice.name} [${voiceQuality(voice)}]` : '—'}</dd>
           <dt className="text-muted">Режим</dt>
           <dd>{isStandalone() ? 'с экрана Домой' : 'в браузере'}</dd>
           <dt className="text-muted">iOS</dt>
