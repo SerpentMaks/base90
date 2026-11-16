@@ -3,6 +3,7 @@ import { Ring } from '../../ui/Ring';
 import { InstallHint } from '../../ui/InstallHint';
 import { formatDateRu, studyDate } from '../../lib/time';
 import { SoundCheck } from '../../ui/SoundCheck';
+import { NeuralVoicePicker } from '../../ui/NeuralVoicePicker';
 
 function useOnline() {
   const [online, setOnline] = useState(() => navigator.onLine);
@@ -62,6 +63,8 @@ export function TodayScreen() {
         <Stat value="0 ❄️" label="заморозки" />
         <Stat value="0" label="к повторению" />
       </div>
+
+      <NeuralVoicePicker />
 
       <SoundCheck />
 

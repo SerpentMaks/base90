@@ -69,7 +69,7 @@ export function SoundCheck() {
 
   return (
     <section className="rounded-2xl border border-line bg-surface p-4">
-      <h2 className="font-semibold">Проверка звука</h2>
+      <h2 className="font-semibold">Голос Safari (запасной)</h2>
       <p className="mt-1 text-sm text-muted">Должен прозвучать американский голос: «Hello! Welcome to Base ninety».</p>
       <button
         onClick={() => run(false)}

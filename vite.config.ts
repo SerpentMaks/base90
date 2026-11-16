@@ -27,7 +27,7 @@ export default defineConfig({
       injectRegister: false,
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       injectManifest: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,json,webmanifest}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,ico,json,webmanifest,m4a}'],
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
       },
       manifest: {
