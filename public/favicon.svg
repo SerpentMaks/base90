@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#2a63d4"/>
+  <g transform="translate(256 256) scale(1) translate(-256 -256)">
+    <text x="256" y="356" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, Arial, sans-serif"
+      font-weight="800" font-size="236" fill="#ffffff" letter-spacing="-8">90</text>
+    <rect x="156" y="384" width="200" height="14" rx="8" fill="#ffffff" opacity="0.55"/>
+    <text x="256" y="148" text-anchor="middle" font-family="Noto Sans, DejaVu Sans, Arial, sans-serif"
+      font-weight="700" font-size="54" fill="#ffffff" opacity="0.85" letter-spacing="6">BASE</text>
+  </g>
+</svg>

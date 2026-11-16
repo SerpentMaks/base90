@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* Один акцентный цвет, спокойная палитра. Тёмная тема — автоматически. */
+@theme {
+  --color-bg: #f7f7f5;
+  --color-surface: #ffffff;
+  --color-line: #e5e5df;
+  --color-ink: #1b1c1f;
+  --color-muted: #63676e;
+  --color-accent: #2a63d4;
+  --color-accent-ink: #ffffff;
+  --color-accent-soft: #e6eefc;
+  --color-good: #1f8a4c;
+  --color-bad: #c2412d;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #16171a;
+    --color-surface: #202227;
+    --color-line: #30333a;
+    --color-ink: #ececef;
+    --color-muted: #a0a4ac;
+    --color-accent: #7ea6ff;
+    --color-accent-ink: #0f1830;
+    --color-accent-soft: #1f2a44;
+    --color-good: #5cc98a;
+    --color-bad: #ff8a75;
+  }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  overscroll-behavior-y: none;
+}
+
+#root {
+  min-height: 100dvh;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+button {
+  touch-action: manipulation;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
