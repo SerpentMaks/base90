@@ -1,7 +1,7 @@
 {
   "name": "base90",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "Base90 — английский с нуля за 90 дней. Офлайн-PWA.",
   "engines": {

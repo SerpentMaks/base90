@@ -1,8 +1,32 @@
 import { useEffect, useReducer, useState } from 'react';
 import { isStandalone } from '../lib/platform';
-import { allVoices, onTtsChange, playBeep, speak, ttsLog, ttsSupported, usVoices } from '../lib/tts';
+import {
+  allVoices,
+  currentVoice,
+  onTtsChange,
+  playBeep,
+  setPreferredVoiceURI,
+  speak,
+  ttsLog,
+  ttsSupported,
+  usVoices,
+  voiceQuality,
+  type VoiceQuality,
+} from '../lib/tts';
 
 const PHRASE = 'Hello! Welcome to Base ninety.';
+
+const QUALITY_LABEL: Record<VoiceQuality, string> = {
+  premium: '★ премиум',
+  enhanced: 'улучшенный',
+  standard: 'обычный',
+  robotic: 'роботизированный',
+  novelty: 'шуточный',
+};
+
+function shortName(name: string): string {
+  return name.replace(/\s*\((английский|english)[^)]*\)\)?/i, '').trim();
+}
 
 function iosVersion(): string {
   const m = navigator.userAgent.match(/OS (\d+)[_.](\d+)/);
@@ -19,6 +43,8 @@ export function SoundCheck() {
   const supported = ttsSupported();
   const voices = allVoices();
   const us = usVoices(voices);
+  const voice = currentVoice();
+  const hasGood = us.some((v) => ['premium', 'enhanced'].includes(voiceQuality(v)));
 
   // onClick синхронно вызывает speak() → speechSynthesis.speak() внутри жеста (требование iOS).
   function run(useDefaultVoice = false) {
@@ -54,6 +80,45 @@ export function SoundCheck() {
       )}
       {!supported && <p className="mt-2 text-sm text-bad">Этот браузер не умеет озвучивать текст. На iPhone открой сайт в Safari.</p>}
 
+      {us.length > 0 && (
+        <div className="mt-4">
+          <label htmlFor="voice" className="text-sm font-medium">
+            Голос
+          </label>
+          <div className="mt-1 flex gap-2">
+            <select
+              id="voice"
+              value={voice?.voiceURI ?? ''}
+              onChange={(e) => {
+                setPreferredVoiceURI(e.target.value || null);
+                setState('idle');
+              }}
+              className="min-h-12 min-w-0 flex-1 rounded-xl border border-line bg-bg px-3 text-base"
+            >
+              {us.map((v) => (
+                <option key={v.voiceURI} value={v.voiceURI}>
+                  {shortName(v.name)} — {QUALITY_LABEL[voiceQuality(v)]}
+                </option>
+              ))}
+            </select>
+            <button
+              onClick={() => run(false)}
+              aria-label="Прослушать выбранный голос"
+              className="min-h-12 rounded-xl bg-accent px-4 font-medium text-accent-ink"
+            >
+              ▶
+            </button>
+          </div>
+          {!hasGood && (
+            <p className="mt-2 text-sm text-muted">
+              Голоса получше можно скачать бесплатно: «Настройки → Универсальный доступ → Устное содержимое → Голоса →
+              Английский» → выбери, например, <b className="text-ink">Ava</b> или <b className="text-ink">Zoe</b> с пометкой
+              «улучшенный»/«премиум» (США) и нажми загрузку. Потом закрой и снова открой Base90.
+            </p>
+          )}
+        </div>
+      )}
+
       <details className="mt-3 text-sm">
         <summary className="min-h-12 cursor-pointer py-3 text-accent">Не слышно? Диагностика</summary>
         <ol className="list-decimal space-y-1 pl-5 text-muted">
@@ -85,7 +150,7 @@ export function SoundCheck() {
             {voices.length} (en-US: {us.length})
           </dd>
           <dt className="text-muted">Голос</dt>
-          <dd className="break-words">{us[0] ? us[0].name : '—'}</dd>
+          <dd className="break-words">{voice ? `${voice.name} [${voiceQuality(voice)}]` : '—'}</dd>
           <dt className="text-muted">Режим</dt>
           <dd>{isStandalone() ? 'с экрана Домой' : 'в браузере'}</dd>
           <dt className="text-muted">iOS</dt>

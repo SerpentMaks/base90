@@ -73,13 +73,66 @@ export function allVoices(): SpeechSynthesisVoice[] {
   return ttsSupported() ? refreshVoices() : [];
 }
 
-/** Американские голоса, «улучшенные» системные — первыми. */
-export function usVoices(voices: SpeechSynthesisVoice[] = voicesCache): SpeechSynthesisVoice[] {
-  const score = (v: SpeechSynthesisVoice) =>
-    (/enhanced|premium|neural|natural|улучш/i.test(v.name) ? 2 : 0) + (v.localService ? 1 : 0);
-  return voices
+type VoiceLike = Pick<SpeechSynthesisVoice, 'name' | 'lang' | 'voiceURI' | 'localService'>;
+
+export type VoiceQuality = 'premium' | 'enhanced' | 'standard' | 'robotic' | 'novelty';
+
+/** «Голоса-приколы» Apple (звенят, булькают, поют) — никогда не выбираем. */
+const NOVELTY = /^(bad news|bahh|bells|boing|bubbles|cellos|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|deranged|hysterical|pipe organ)\b/i;
+/** Старые синтетические голоса: разборчивы, но звучат как робот. */
+const ROBOTIC = /^(albert|fred|junior|kathy|ralph|eddy|flo|grandma|grandpa|reed|rocko|sandy|shelley|princess|vicki|victoria|bruce|agnes)\b/i;
+/** Естественные голоса Apple/Google/Microsoft. */
+const NATURAL = /^(samantha|ava|allison|susan|tom|zoe|evan|nathan|joelle|nicky|noelle|aaron|alex|siri|google us english|microsoft (aria|jenny|guy|ana|christopher|eric|michelle|roger|steffan))/i;
+
+export function voiceQuality(v: VoiceLike): VoiceQuality {
+  const id = `${v.name} ${v.voiceURI}`;
+  if (NOVELTY.test(v.name)) return 'novelty';
+  if (ROBOTIC.test(v.name) || /eloquence/i.test(v.voiceURI)) return 'robotic';
+  if (/premium|премиум/i.test(id)) return 'premium';
+  if (/enhanced|улучш|neural|natural|online/i.test(id)) return 'enhanced';
+  return 'standard';
+}
+
+function voiceScore(v: VoiceLike): number {
+  const q = { premium: 40, enhanced: 30, standard: 10, robotic: -20, novelty: -100 }[voiceQuality(v)];
+  return q + (NATURAL.test(v.name) ? 5 : 0) + (/^samantha|^ava|^zoe/i.test(v.name) ? 2 : 0);
+}
+
+/** Американские голоса: лучшие первыми, «приколы» убраны (если есть хоть что-то другое). */
+export function usVoices<V extends VoiceLike>(voices: V[] = voicesCache as unknown as V[]): V[] {
+  const us = voices
     .filter((v) => v.lang.replace('_', '-').toLowerCase().startsWith('en-us'))
-    .sort((a, b) => score(b) - score(a) || a.name.localeCompare(b.name));
+    .sort((a, b) => voiceScore(b) - voiceScore(a) || a.name.localeCompare(b.name));
+  const usable = us.filter((v) => voiceQuality(v) !== 'novelty');
+  return usable.length ? usable : us;
+}
+
+const VOICE_KEY = 'base90.voiceURI';
+
+/** Выбранный пользователем голос (до этапа 2 — в localStorage). */
+export function getPreferredVoiceURI(): string | null {
+  try {
+    return localStorage.getItem(VOICE_KEY);
+  } catch {
+    return null;
+  }
+}
+
+export function setPreferredVoiceURI(uri: string | null): void {
+  try {
+    if (uri) localStorage.setItem(VOICE_KEY, uri);
+    else localStorage.removeItem(VOICE_KEY);
+  } catch {
+    /* приватный режим — просто не запоминаем */
+  }
+  listeners.forEach((fn) => fn());
+}
+
+/** Голос, которым будем говорить: выбранный пользователем или лучший доступный. */
+export function currentVoice(): SpeechSynthesisVoice | undefined {
+  const list = usVoices(allVoices());
+  const pref = getPreferredVoiceURI();
+  return list.find((v) => v.voiceURI === pref) ?? list[0];
 }
 
 /**
@@ -93,7 +146,9 @@ export function speak(text: string, opts: SpeakOptions = {}): Promise<void> {
   }
   const synth = window.speechSynthesis;
   const list = usVoices(refreshVoices());
-  const voice = opts.useDefaultVoice ? undefined : (list.find((v) => v.voiceURI === opts.voiceURI) ?? list[0]);
+  const voice = opts.useDefaultVoice
+    ? undefined
+    : ((opts.voiceURI ? list.find((v) => v.voiceURI === opts.voiceURI) : undefined) ?? currentVoice());
 
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'en-US';
