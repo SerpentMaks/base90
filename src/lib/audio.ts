@@ -8,47 +8,55 @@ let el: HTMLAudioElement | null = null;
 function player(): HTMLAudioElement {
   if (!el) {
     el = new Audio();
-    el.preload = 'auto';
+    el.preload = "auto";
     (el as HTMLAudioElement & { playsInline?: boolean }).playsInline = true;
   }
   return el;
 }
 
 export type ClipOptions = { rate?: number };
+let cancelPlayback: (() => void) | null = null;
 
 /** Полный URL файла внутри приложения (учитывает base-путь /base90/). */
 export function assetUrl(path: string): string {
-  return `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+  return `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
 }
 
 export function playClip(path: string, opts: ClipOptions = {}): Promise<void> {
   const a = player();
-  a.pause();
+  stopClip();
   a.src = assetUrl(path);
   a.playbackRate = opts.rate ?? 1;
   a.preservesPitch = true;
   return new Promise<void>((resolve, reject) => {
+    let settled = false;
     const cleanup = () => {
-      a.onended = null;
-      a.onerror = null;
+      a.removeEventListener("ended", ended);
+      a.removeEventListener("error", failed);
+      if (cancelPlayback === cancel) cancelPlayback = null;
     };
-    a.onended = () => {
+    const finish = (error?: Error) => {
+      if (settled) return;
+      settled = true;
       cleanup();
-      resolve();
+      if (error) reject(error);
+      else resolve();
     };
-    a.onerror = () => {
-      cleanup();
-      reject(new Error('audio-error'));
-    };
-    a.play().catch((e: unknown) => {
-      cleanup();
-      reject(e instanceof Error ? e : new Error(String(e)));
-    });
+    const ended = () => finish(),
+      failed = () => finish(new Error("audio-error")),
+      cancel = () => finish();
+    cancelPlayback = cancel;
+    a.addEventListener("ended", ended);
+    a.addEventListener("error", failed);
+    a.play().catch((e: unknown) =>
+      finish(e instanceof Error ? e : new Error(String(e))),
+    );
   });
 }
 
 export function stopClip(): void {
   el?.pause();
+  cancelPlayback?.();
 }
 
 let silenceUrl: string | null = null;
@@ -59,10 +67,11 @@ function silence(): string {
   const n = 400;
   const buf = new Uint8Array(44 + n);
   const dv = new DataView(buf.buffer);
-  const str = (o: number, s: string) => [...s].forEach((c, i) => dv.setUint8(o + i, c.charCodeAt(0)));
-  str(0, 'RIFF');
+  const str = (o: number, s: string) =>
+    [...s].forEach((c, i) => dv.setUint8(o + i, c.charCodeAt(0)));
+  str(0, "RIFF");
   dv.setUint32(4, 36 + n, true);
-  str(8, 'WAVEfmt ');
+  str(8, "WAVEfmt ");
   dv.setUint32(16, 16, true);
   dv.setUint16(20, 1, true);
   dv.setUint16(22, 1, true);
@@ -70,10 +79,10 @@ function silence(): string {
   dv.setUint32(28, 8000, true);
   dv.setUint16(32, 1, true);
   dv.setUint16(34, 8, true);
-  str(36, 'data');
+  str(36, "data");
   dv.setUint32(40, n, true);
   buf.fill(128, 44);
-  silenceUrl = URL.createObjectURL(new Blob([buf], { type: 'audio/wav' }));
+  silenceUrl = URL.createObjectURL(new Blob([buf], { type: "audio/wav" }));
   return silenceUrl;
 }
 
@@ -87,12 +96,12 @@ export function unlockAudio(): void {
   a.src = silence();
   a.play()
     .then(() => {
-      a.dataset.unlocked = '1';
+      a.dataset.unlocked = "1";
     })
     .catch(() => {});
   try {
-    if ('speechSynthesis' in window) {
-      const u = new SpeechSynthesisUtterance(' ');
+    if ("speechSynthesis" in window) {
+      const u = new SpeechSynthesisUtterance(" ");
       u.volume = 0;
       window.speechSynthesis.speak(u);
     }

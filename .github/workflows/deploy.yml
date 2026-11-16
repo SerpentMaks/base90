@@ -27,11 +27,15 @@ jobs:
       - name: Проверка на секреты
         run: npm run check-secrets
       - name: Валидация контента
-        run: npm run validate
+        run: npm run validate -- --audio
       - name: Тесты
         run: npm test
       - name: Сборка
         run: npm run build
+        env:
+          VITE_VAPID_PUBLIC_KEY: ${{ vars.VITE_VAPID_PUBLIC_KEY }}
+      - name: Лимит кода без контента
+        run: npm run check-bundle
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

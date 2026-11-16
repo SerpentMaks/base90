@@ -1,0 +1,144 @@
+# неделя|название|объяснение. В упражнениях квадратные скобки отмечают ответ.
+@1|Я, ты и to be|В английском в предложении нужен глагол. «Я студент» → I am a student. С I используй am, с he/she/it — is, с you/we/they — are. В разговоре: I'm, you're, she's. This — это рядом, that — то подальше. Перед одним предметом обычно нужен a или an: a book, an apple. An ставится перед гласным звуком. Перед именем и множественным числом a/an не нужны. Сначала назови, о ком говоришь, затем поставь глагол: She is happy.
+I [am] a student.|Я студент.
+She [is] my friend.|Она моя подруга.
+They [are] at home.|Они дома.
+You [are] right.|Ты прав.
+This [is] my book.|Это моя книга.
+That is [a] car.|То — машина.
+It is [an] apple.|Это яблоко.
+We [are] happy.|Мы счастливы.
+He [is] a teacher.|Он учитель.
+I [am] here.|Я здесь.
+@2|Вопросы, вещи и владельцы|В вопросе am/is/are ставится перед человеком: Are you ready? В отрицании добавь not: She is not here. There is — где-то есть один предмет; there are — несколько. My, your, his, her, our, their ставятся перед вещью: my phone. Если называешь владельца по имени, добавь 's: Alex's book. Не путай her (её) и his (его). «У меня есть» — I have, а there is описывает наличие в каком-то месте.
+[Are] you ready?|Ты готов?
+She is [not] here.|Её здесь нет.
+There [is] a book on the table.|На столе книга.
+There [are] two books here.|Здесь две книги.
+This is [my] phone.|Это мой телефон.
+That is [her] brother.|То — её брат.
+This is [his] car.|Это его машина.
+It is [Alex's] book.|Это книга Алекса.
+[Is] he at home?|Он дома?
+We [are] not late.|Мы не опоздали.
+@3|Обычный день: Present Simple|Эта форма описывает привычки и факты. I work, you work, we work, they work. Но he/she/it → works: добавь -s. После -ch/-sh/-s/-x/-o обычно -es: watches, goes. Согласная + y меняется на -ies: study → studies. У have особая форма has. Не вставляй is перед обычным глаголом: She works, а не She is works. Every day — каждый день. On Monday — в понедельник.
+I [work] every day.|Я работаю каждый день.
+She [works] at home.|Она работает дома.
+He [goes] to school.|Он ходит в школу.
+We [like] this game.|Нам нравится эта игра.
+My brother [watches] movies.|Мой брат смотрит фильмы.
+They [play] together.|Они играют вместе.
+She [has] a car.|У неё есть машина.
+He [studies] English.|Он изучает английский.
+You [know] my name.|Ты знаешь моё имя.
+It [looks] good.|Это выглядит хорошо.
+@4|Do, does, частота и артикли|Чтобы спросить про обычное действие, начни с do или does. Do you work? Does she work? После does глагол без -s. Отрицания: don't и doesn't. He doesn't know. С am/is/are do не нужен: Are you tired? Usually и often обычно стоят перед обычным глаголом, но после be. A — один, впервые упомянутый; the — тот, который уже понятен собеседнику. I have a book. The book is good.
+[Do] you like this game?|Тебе нравится эта игра?
+[Does] she work here?|Она здесь работает?
+He doesn't [know] me.|Он меня не знает.
+I [don't] speak French.|Я не говорю по-французски.
+She [doesn't] have a car.|У неё нет машины.
+Does he [play] every day?|Он играет каждый день?
+I [usually] work at home.|Я обычно работаю дома.
+She is [always] ready.|Она всегда готова.
+I have [a] book.|У меня есть книга.
+Please close [the] door.|Пожалуйста, закрой дверь.
+@5|Что происходит сейчас|Am/is/are + глагол с -ing описывает действие сейчас: I'm reading. В вопросе be идёт первым: Are you reading? Отрицание: I'm not reading. У глагола на немую e она исчезает: make → making. Иногда последняя согласная удваивается: run → running. Сравни: I work every day (обычно), I'm working now (сейчас). Know, want, like обычно используются без -ing. Не забывай am/is/are: She is working.
+I [am] reading now.|Я сейчас читаю.
+She is [working] now.|Она сейчас работает.
+They [are] playing outside.|Они играют на улице.
+[Are] you listening?|Ты слушаешь?
+He is [not] sleeping.|Он не спит.
+We are [making] dinner.|Мы готовим ужин.
+She [works] every day.|Она работает каждый день.
+She is [working] today.|Она сегодня работает.
+I [know] the answer.|Я знаю ответ.
+The boy is [running].|Мальчик бежит.
+@6|Могу, нельзя и давай|Can + начальная форма: I can swim. Can не меняется с he/she, а после него не нужен to. Вопрос: Can you help? Отрицание: can't. В просьбе можно сказать Could you help me? Это вежливее. Для команды начни с глагола: Open the door. Запрет: Don't open it. Let's + глагол означает «давай»: Let's go. После let's не нужен to. Просьба с please звучит мягче, но тон тоже важен.
+I [can] help you.|Я могу тебе помочь.
+She can [speak] English.|Она умеет говорить по-английски.
+[Can] you swim?|Ты умеешь плавать?
+I [can't] come today.|Я не могу прийти сегодня.
+[Open] the door, please.|Открой дверь, пожалуйста.
+[Don't] touch it.|Не трогай это.
+Let's [go] home.|Давай пойдём домой.
+He [can] drive.|Он умеет водить.
+[Could] you help me, please?|Не мог бы ты мне помочь?
+Let's [take] a break.|Давай сделаем перерыв.
+@7|Вчера: was, were и -ed|Для прошлого у be есть was (I/he/she/it) и were (you/we/they). I was tired. Were you at home? Обычный правильный глагол получает -ed: work → worked. После немой e добавь -d: like → liked. Согласная + y: study → studied. Yesterday — вчера, last week — на прошлой неделе. В вопросах с действием нужен did, а с was/were он не нужен. Не пытайся добавлять -ed к каждому глаголу: у go и многих частых слов особые формы.
+I [was] at home yesterday.|Я был дома вчера.
+They [were] happy.|Они были счастливы.
+[Were] you tired?|Ты устал?
+She [wasn't] at work.|Её не было на работе.
+I [worked] yesterday.|Я работал вчера.
+We [played] together.|Мы играли вместе.
+He [liked] the movie.|Ему понравился фильм.
+She [studied] English.|Она изучала английский.
+They [opened] the door.|Они открыли дверь.
+We [were] late.|Мы опоздали.
+@8|Did и неправильные глаголы|У частых глаголов прошедшая форма особая: go → went, see → saw, have → had. В вопросе и отрицании появляется did, поэтому основной глагол возвращается к начальной форме: Did you go? I didn't go. Не говори Did you went. Was/were работают без did. Выучи формы маленькими порциями; отдельная таблица ниже поможет возвращаться к ним. В рассказе сначала назови, кто действовал, потом действие: She took my book.
+I [went] home.|Я пошёл домой.
+She [saw] the movie.|Она посмотрела фильм.
+We [had] dinner.|Мы поужинали.
+[Did] you see him?|Ты его видел?
+I didn't [go] there.|Я туда не ходил.
+He [took] my book.|Он взял мою книгу.
+They [bought] a car.|Они купили машину.
+Did she [come] yesterday?|Она пришла вчера?
+I [made] dinner.|Я приготовил ужин.
+We [found] the answer.|Мы нашли ответ.
+@9|Планы: going to и will|Am/is/are going to + глагол — план или явные признаки будущего: I'm going to study. В быстрой речи going to часто звучит как gonna. На письме в обычном тексте используй going to. Will + глагол часто выражает решение сейчас, обещание или прогноз. I'll help you. После will нет to и -s. Отрицание: won't. Wanna = want to, gotta = got to, но это разговорные записи, а не формы для официального письма.
+I [am] going to study.|Я собираюсь учиться.
+She is going to [call] you.|Она собирается тебе позвонить.
+They [are] going to come.|Они собираются прийти.
+I [will] help you.|Я тебе помогу.
+He [won't] be late.|Он не опоздает.
+[Will] you come tomorrow?|Ты придёшь завтра?
+I'll [call] you later.|Я позвоню тебе позже.
+It is [going] to rain.|Скоро пойдёт дождь.
+We are going [to] leave.|Мы собираемся уходить.
+She will [be] here.|Она будет здесь.
+@10|Кого, где и сколько|После глагола нужны me/you/him/her/it/us/them: I see him. In — внутри и с месяцами; on — на поверхности и с днями; at — точка, точное время. At home, on Monday, in May. Some часто в утверждениях, any — в вопросах и отрицаниях; в предложении угощения возможен some. Many — с тем, что считаем поштучно, much — с водой, временем, деньгами. Money неисчисляемое. В обычном утверждении естественно a lot of.
+I see [him].|Я вижу его.
+Please help [me].|Пожалуйста, помоги мне.
+We live [in] this city.|Мы живём в этом городе.
+The book is [on] the table.|Книга на столе.
+We meet [at] ten.|Мы встречаемся в десять.
+I work [on] Monday.|Я работаю в понедельник.
+I have [some] water.|У меня есть немного воды.
+Do you have [any] questions?|У тебя есть вопросы?
+How [many] books do you have?|Сколько у тебя книг?
+How [much] time do we have?|Сколько у нас времени?
+@11|Опыт и результат: have + третья форма|Have/has + третья форма связывает прошлое с настоящим: I've lost my phone — телефон сейчас потерян. Ever — когда-либо, never — никогда, just — только что, already — уже. Have you ever been there? После he/she/it используй has. Не добавляй did. Если названо законченное время yesterday или last week, обычно нужен Past Simple: I saw it yesterday. I've = I have; she's может значить she is или she has — смотри на следующее слово.
+I [have] seen this movie.|Я видел этот фильм.
+She [has] lost her phone.|Она потеряла телефон.
+Have you ever [been] there?|Ты когда-нибудь там был?
+I have never [seen] it.|Я никогда этого не видел.
+He has just [left].|Он только что ушёл.
+We have already [finished].|Мы уже закончили.
+[Have] you eaten?|Ты поел?
+She has [written] a book.|Она написала книгу.
+I [saw] him yesterday.|Я видел его вчера.
+They have [gone] home.|Они ушли домой.
+@12|Совет, необходимость и сравнение|Should + глагол — совет: You should rest. Have to — необходимость: I have to work. С he/she — has to. Don't have to — не обязательно, а mustn't — запрещено. Might — возможно. Could — мог или вежливая просьба. I'd like = I would like — я бы хотел. Сравнение: smaller than, more interesting than; good → better, bad → worse. Самый: the biggest, the most interesting. Не ставь more перед better.
+You [should] rest.|Тебе стоит отдохнуть.
+I [have] to work today.|Мне нужно сегодня работать.
+She [has] to go.|Ей нужно идти.
+You don't [have] to come.|Тебе не обязательно приходить.
+It [might] rain.|Возможно, пойдёт дождь.
+[Could] you open the window?|Не мог бы ты открыть окно?
+I would [like] some tea.|Я бы хотел чаю.
+This book is [better] than that one.|Эта книга лучше той.
+My room is [smaller] than yours.|Моя комната меньше твоей.
+This is the [best] day.|Это лучший день.
+@13|Фразовые глаголы и повторение|У сочетания глагола с коротким словом часто новое значение: find out — выяснить, give up — сдаться. Учи целую фразу с примером. У многих таких глаголов дополнение можно вставить внутрь: turn the light off. Если дополнение — it/them, оно обычно внутри: turn it off. Но look after him нельзя разрывать. Get up — встать, wake up — проснуться. Если встретил незнакомое сочетание в фильме, сначала попробуй понять сцену, потом проверь значение. После курса продолжай повторения и постепенно увеличивай время с английскими субтитрами.
+Please turn it [off].|Пожалуйста, выключи это.
+I get [up] at seven.|Я встаю в семь.
+Don't give [up].|Не сдавайся.
+Let's find [out].|Давай выясним.
+She looks [after] her brother.|Она присматривает за братом.
+Pick it [up], please.|Подними это, пожалуйста.
+I'll call you [back].|Я тебе перезвоню.
+We ran [out] of time.|У нас закончилось время.
+Please fill [in] this form.|Пожалуйста, заполни этот бланк.
+I look forward [to] it.|Я с нетерпением этого жду.

@@ -22,3 +22,7 @@ secrets/
 # Сырые скачанные источники контента (большие; пересобираются скриптами)
 scripts/.cache/
 .claude/
+
+# Результаты браузерных тестов
+playwright-report/
+test-results/

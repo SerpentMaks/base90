@@ -1,0 +1,200 @@
+I don't know.|Я не знаю.
+What's going on?|Что происходит?
+Come on!|Давай! / Да ладно!
+I'm gonna go.|Я собираюсь уйти. (разг.)
+You know what?|Знаешь что?
+Let's go.|Пойдём.
+I mean it.|Я серьёзно.
+Are you kidding?|Ты шутишь?
+Never mind.|Не обращай внимания.
+Hold on.|Подожди.
+How are you?|Как дела?
+I'm fine.|У меня всё хорошо.
+Nice to meet you.|Приятно познакомиться.
+See you later.|Увидимся позже.
+Take care.|Береги себя.
+Thank you so much.|Большое спасибо.
+You're welcome.|Не за что.
+Excuse me.|Извините. (привлечь внимание)
+I'm sorry.|Прости. / Мне жаль.
+No problem.|Без проблем.
+That's right.|Верно.
+I think so.|Думаю, да.
+I don't think so.|Не думаю.
+It depends.|Зависит от обстоятельств.
+Sounds good.|Звучит хорошо. / Договорились.
+Of course.|Конечно.
+Not really.|Не совсем.
+Me too.|Я тоже.
+Me neither.|Я тоже нет.
+So what?|И что?
+What do you mean?|Что ты имеешь в виду?
+I get it.|Я понял.
+I don't get it.|Я не понимаю.
+Let me see.|Дай посмотреть. / Сейчас подумаю.
+Give me a second.|Дай мне секунду.
+Just a minute.|Минутку.
+Wait a second.|Подожди секунду.
+What's the matter?|Что случилось?
+Are you okay?|Ты в порядке?
+It's okay.|Всё нормально.
+Don't worry.|Не волнуйся.
+Be careful.|Будь осторожен.
+Good luck.|Удачи.
+Have fun.|Хорошо повеселись.
+Enjoy your meal.|Приятного аппетита.
+Have a nice day.|Хорошего дня.
+Good morning.|Доброе утро.
+Good night.|Спокойной ночи.
+Welcome back.|С возвращением.
+Long time no see.|Давно не виделись.
+What's your name?|Как тебя зовут?
+My name is Alex.|Меня зовут Алекс.
+Where are you from?|Откуда ты?
+I'm from Russia.|Я из России.
+How old are you?|Сколько тебе лет?
+I'm a student.|Я студент.
+What do you do?|Чем ты занимаешься? (работа)
+I work here.|Я здесь работаю.
+Do you speak English?|Ты говоришь по-английски?
+A little bit.|Немного.
+Could you repeat that?|Не мог бы ты повторить?
+Please speak slowly.|Пожалуйста, говори медленно.
+What does it mean?|Что это значит?
+How do you say it?|Как это сказать?
+I have a question.|У меня вопрос.
+Can you help me?|Ты можешь мне помочь?
+I need help.|Мне нужна помощь.
+Let me help you.|Позволь мне помочь тебе.
+What time is it?|Который час?
+It's time to go.|Пора идти.
+I'm late.|Я опаздываю.
+I'm on my way.|Я уже в пути.
+I'll be right back.|Я сейчас вернусь.
+See you tomorrow.|Увидимся завтра.
+Talk to you later.|Поговорим позже.
+Call me back.|Перезвони мне.
+Text me.|Напиши мне сообщение.
+Keep in touch.|Будем на связи.
+Where are you?|Где ты?
+I'm at home.|Я дома.
+I'm at work.|Я на работе.
+I'm in a hurry.|Я спешу.
+Take your time.|Не торопись.
+There's no rush.|Спешить некуда.
+Let's take a break.|Давай сделаем перерыв.
+I'm tired.|Я устал.
+I'm hungry.|Я голоден.
+I'm thirsty.|Я хочу пить.
+I'm ready.|Я готов.
+Are you sure?|Ты уверен?
+I'm not sure.|Я не уверен.
+I have no idea.|Понятия не имею.
+Who knows?|Кто знает?
+I hope so.|Надеюсь.
+I hope not.|Надеюсь, нет.
+That makes sense.|В этом есть смысл.
+It doesn't make sense.|В этом нет смысла.
+You're right.|Ты прав.
+You're wrong.|Ты ошибаешься.
+That's true.|Это правда.
+That's not fair.|Это несправедливо.
+It's up to you.|Решать тебе.
+It's your turn.|Твоя очередь.
+It's my fault.|Это моя вина.
+My mistake.|Моя ошибка.
+Don't give up.|Не сдавайся.
+Keep going.|Продолжай.
+You can do it.|Ты справишься.
+Well done.|Отличная работа.
+I'm proud of you.|Я горжусь тобой.
+I miss you.|Я скучаю по тебе.
+I love you.|Я люблю тебя.
+I'm happy for you.|Я рад за тебя.
+That's a good idea.|Это хорошая идея.
+Why not?|Почему бы и нет?
+Let's try it.|Давай попробуем.
+What about you?|А ты?
+How about tomorrow?|Как насчёт завтра?
+I'd like some water.|Я бы хотел воды.
+Can I have the menu?|Можно мне меню?
+The check, please.|Счёт, пожалуйста. (амер.)
+How much is it?|Сколько это стоит?
+That's too expensive.|Это слишком дорого.
+I'm just looking.|Я просто смотрю. (в магазине)
+I'll take it.|Я это возьму.
+Do you take cards?|Вы принимаете карты?
+Can I try it on?|Можно это примерить?
+Where is the bathroom?|Где туалет? (амер.)
+How do I get there?|Как туда добраться?
+Is it far from here?|Это далеко отсюда?
+Go straight ahead.|Иди прямо.
+Turn left.|Поверни налево.
+Turn right.|Поверни направо.
+It's on your left.|Это слева от тебя.
+I'm lost.|Я заблудился.
+Can you show me?|Можешь мне показать?
+I'd like a ticket.|Я бы хотел билет.
+One way, please.|В одну сторону, пожалуйста.
+Have a good trip.|Хорошей поездки.
+What happened?|Что случилось?
+What's wrong?|Что не так?
+I can't believe it.|Не могу поверить.
+No way!|Ни за что! / Не может быть!
+Oh my gosh!|Вот это да!
+Seriously?|Серьёзно?
+I told you.|Я же говорил.
+I knew it.|Я так и знал.
+Forget it.|Забудь. / Неважно.
+Leave me alone.|Оставь меня в покое.
+Calm down.|Успокойся.
+Cheer up.|Не унывай.
+Watch out!|Осторожно!
+Look out!|Берегись!
+Get out of here.|Уходи отсюда. / Да ладно!
+Come in.|Входи.
+Sit down.|Садись.
+Stand up.|Встань.
+Wake up.|Просыпайся.
+Get up.|Вставай (с кровати).
+Hurry up.|Поторопись.
+Slow down.|Сбавь скорость.
+Turn it on.|Включи это.
+Turn it off.|Выключи это.
+Put it down.|Положи это.
+Pick it up.|Подними это.
+Try it on.|Примерь это.
+Find out.|Выясни.
+Figure it out.|Разберись с этим.
+Go ahead.|Продолжай. / Давай.
+Go on.|Продолжай.
+Hang on.|Подожди.
+Hang up.|Положи трубку.
+Look it up.|Посмотри это в словаре.
+Check it out.|Посмотри на это. / Зацени.
+Work it out.|Найди решение.
+Give it back.|Верни это.
+Take it easy.|Расслабься. / Не перенапрягайся.
+Make yourself at home.|Чувствуй себя как дома.
+Help yourself.|Угощайся.
+By the way.|Кстати.
+To be honest.|Честно говоря.
+As far as I know.|Насколько я знаю.
+In my opinion.|По моему мнению.
+For example.|Например.
+At least.|По крайней мере.
+In fact.|На самом деле.
+After all.|В конце концов. / Всё-таки.
+First of all.|Прежде всего.
+One more thing.|Ещё кое-что.
+What else?|Что ещё?
+Anything else?|Что-нибудь ещё?
+That's all.|Это всё.
+I'm gonna be late.|Я опоздаю. (разг.)
+I wanna go home.|Я хочу домой. (разг.)
+I gotta go.|Мне пора. (разг.)
+Lemme see.|Дай посмотреть. (разг.)
+It's kinda hard.|Это довольно трудно. (разг.)
+Whaddaya want?|Чего ты хочешь? (очень разг.)
+I'll give it a try.|Я попробую.
+Let's call it a day.|Давай на сегодня закончим.

@@ -1,4 +1,5 @@
-import { useRegisterSW } from 'virtual:pwa-register/react';
+import { useEffect, useRef } from "react";
+import { useRegisterSW } from "virtual:pwa-register/react";
 
 const HOUR = 60 * 60 * 1000;
 
@@ -6,7 +7,14 @@ const HOUR = 60 * 60 * 1000;
  * Новый Service Worker не активируется сам: показываем плашку,
  * чтобы не перезагружать приложение посреди упражнения.
  */
-export function UpdateBanner() {
+export function UpdateBanner({ hidden = false }: { hidden?: boolean }) {
+  const interval = useRef<ReturnType<typeof setInterval> | null>(null);
+  useEffect(
+    () => () => {
+      if (interval.current) clearInterval(interval.current);
+    },
+    [],
+  );
   const {
     needRefresh: [needRefresh, setNeedRefresh],
     offlineReady: [offlineReady, setOfflineReady],
@@ -14,22 +22,23 @@ export function UpdateBanner() {
   } = useRegisterSW({
     onRegisteredSW(_url, reg) {
       if (!reg) return;
-      setInterval(() => {
+      if (interval.current) clearInterval(interval.current);
+      interval.current = setInterval(() => {
         if (navigator.onLine) reg.update().catch(() => {});
       }, HOUR);
     },
   });
 
-  if (!needRefresh && !offlineReady) return null;
+  if (hidden || (!needRefresh && !offlineReady)) return null;
 
   return (
     <div
       role="status"
       className="fixed inset-x-3 z-50 mx-auto flex max-w-md items-center gap-3 rounded-2xl border border-line bg-surface p-3 shadow-lg"
-      style={{ bottom: 'calc(env(safe-area-inset-bottom) + 12px)' }}
+      style={{ bottom: "calc(env(safe-area-inset-bottom) + 68px)" }}
     >
       <p className="flex-1 text-sm">
-        {needRefresh ? 'Доступно обновление' : 'Готово к работе без интернета'}
+        {needRefresh ? "Доступно обновление" : "Готово к работе без интернета"}
       </p>
       {needRefresh ? (
         <button

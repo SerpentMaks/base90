@@ -1,0 +1,29 @@
+name: Поддержка расписания Base90
+on:
+  schedule:
+    - cron: '41 9 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: base90-keepalive
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Включить workflow напоминаний
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method PUT repos/${{ github.repository }}/actions/workflows/remind.yml/enable
+      - name: Поддерживать активность раз в три недели
+        run: |
+          last=$(git log -1 --format=%ct)
+          now=$(date +%s)
+          if [ "$((now-last))" -ge 1814400 ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit --allow-empty -m 'chore: keep reminder schedule active'
+            git push
+          fi

@@ -1,3 +1,6 @@
 node_modules/
 plan.json
 .tmp/
+
+.tmp-*/
+course-plan.json

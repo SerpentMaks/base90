@@ -1,7 +1,7 @@
 {
   "name": "base90",
   "private": true,
-  "version": "0.2.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Base90 — английский с нуля за 90 дней. Офлайн-PWA.",
   "engines": {
@@ -21,7 +21,11 @@
     "audio:plan": "node scripts/audio-plan.ts",
     "audio:gen": "cd tools/tts && npm install --no-audit --no-fund && node gen.mjs plan.json ../../public/audio",
     "audio:manifest": "node scripts/audio-manifest.ts",
-    "audio": "npm run audio:plan && npm run audio:gen && npm run audio:manifest"
+    "audio": "npm run audio:plan && npm run audio:gen && npm run audio:manifest",
+    "content:words": "node scripts/build-words.ts && node scripts/build-chunks.mjs",
+    "content:course": "node scripts/build-stories.ts && node scripts/build-course.ts",
+    "test:e2e": "playwright test",
+    "check-bundle": "node scripts/check-bundle.mjs"
   },
   "dependencies": {
     "dexie": "^4.4.7",
@@ -30,22 +34,27 @@
     "ts-fsrs": "^6.0.0",
     "workbox-core": "^7.4.1",
     "workbox-precaching": "^7.4.1",
+    "workbox-range-requests": "^7.4.1",
     "workbox-routing": "^7.4.1",
     "workbox-window": "^7.4.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.1",
     "@tailwindcss/vite": "^4.3.5",
     "@types/node": "^24.19.2",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "@types/web-push": "^3.6.4",
     "@vitejs/plugin-react": "^6.3.0",
     "fake-indexeddb": "^6.2.8",
+    "prettier": "^3.10.1",
     "sharp": "^0.35.5",
     "tailwindcss": "^4.3.5",
     "typescript": "^6.0.3",
     "vite": "^8.3.8",
     "vite-plugin-pwa": "^2.0.0",
     "vitest": "^5.1.0",
+    "web-push": "^4.0.0",
     "zod": "^4.6.7"
   }
 }

@@ -1,17 +1,28 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { distractors, word } from '../../content';
-import { gradeAuto, Rating, SLOW_MS } from '../../lib/fsrs';
-import { say } from '../../lib/speech';
-import { sfxCorrect, sfxWrong } from '../../lib/sfx';
-import { SpeakButton } from '../../ui/SpeakButton';
-import { BottomBar, btnPrimary, Prompt, Verdict, type ExerciseProps } from './common';
+import { useEffect, useMemo, useRef, useState } from "react";
+import { distractors, word } from "../../content";
+import { gradeAuto, Rating, SLOW_MS } from "../../lib/fsrs";
+import { useSettings } from "../../lib/settings";
+import { say } from "../../lib/speech";
+import { sfxCorrect, sfxWrong } from "../../lib/sfx";
+import { SpeakButton } from "../../ui/SpeakButton";
+import {
+  BottomBar,
+  btnPrimary,
+  Prompt,
+  Verdict,
+  type ExerciseProps,
+} from "./common";
 
 /** 6.2 На слух → значение, ранние шаги: только аудио, выбор из 4. */
 export function ListenChoice({ itemId, onDone }: ExerciseProps) {
   const w = word(itemId);
+  const { autoplay } = useSettings();
   const options = useMemo(() => {
     const all = [w.ru[0]!, ...distractors(w)];
-    return all.map((o) => [Math.random(), o] as const).sort((a, b) => a[0] - b[0]).map(([, o]) => o);
+    return all
+      .map((o) => [Math.random(), o] as const)
+      .sort((a, b) => a[0] - b[0])
+      .map(([, o]) => o);
   }, [w]);
   const [picked, setPicked] = useState<string | null>(null);
   const [gaveUp, setGaveUp] = useState(false);
@@ -20,8 +31,8 @@ export function ListenChoice({ itemId, onDone }: ExerciseProps) {
 
   useEffect(() => {
     start.current = performance.now();
-    void say(w.lemma).catch(() => {});
-  }, [w.lemma]);
+    if (autoplay) void say(w.lemma).catch(() => {});
+  }, [w.lemma, autoplay]);
 
   const answered = picked !== null || gaveUp;
   const correct = picked === w.ru[0];
@@ -36,7 +47,12 @@ export function ListenChoice({ itemId, onDone }: ExerciseProps) {
   }
 
   function finish() {
-    const grade = gaveUp ? Rating.Again : gradeAuto(correct ? 'correct' : 'wrong', { elapsedMs: elapsed.current, slowMs: SLOW_MS['listen-choice'] });
+    const grade = gaveUp
+      ? Rating.Again
+      : gradeAuto(correct ? "correct" : "wrong", {
+          elapsedMs: elapsed.current,
+          slowMs: SLOW_MS["listen-choice"],
+        });
     onDone({ grade, correct: !gaveUp && correct, elapsedMs: elapsed.current });
   }
 
@@ -54,7 +70,13 @@ export function ListenChoice({ itemId, onDone }: ExerciseProps) {
       <div className="grid grid-cols-1 gap-2">
         {options.map((o) => {
           const isRight = o === w.ru[0];
-          const state = !answered ? '' : isRight ? 'border-good bg-good/10' : o === picked ? 'border-bad bg-bad/10' : 'opacity-60';
+          const state = !answered
+            ? ""
+            : isRight
+              ? "border-good bg-good/10"
+              : o === picked
+                ? "border-bad bg-bad/10"
+                : "opacity-60";
           return (
             <button
               key={o}
@@ -80,15 +102,24 @@ export function ListenChoice({ itemId, onDone }: ExerciseProps) {
         </button>
       )}
       {answered && (
-        <Verdict kind={correct ? 'good' : 'bad'}>
-          {correct ? 'Верно!' : (
+        <Verdict kind={correct ? "good" : "bad"}>
+          {correct ? (
+            "Верно!"
+          ) : (
             <>
-              <b lang="en">{w.lemma}</b> — {w.ru.join(', ')}. Ошибка = сигнал памяти, что слово надо укрепить.
+              <b lang="en">{w.lemma}</b> — {w.ru.join(", ")}. Ошибка = сигнал
+              памяти, что слово надо укрепить.
             </>
           )}
         </Verdict>
       )}
-      <BottomBar>{answered && <button className={btnPrimary} onClick={finish} autoFocus>Дальше</button>}</BottomBar>
+      <BottomBar>
+        {answered && (
+          <button className={btnPrimary} onClick={finish} autoFocus>
+            Дальше
+          </button>
+        )}
+      </BottomBar>
     </div>
   );
 }

@@ -1,0 +1,1143 @@
+{
+"should": {
+"pos": [
+"verb"
+],
+"ipa": "/ʃʊd/",
+"ru": [
+"следует, стоит",
+"должен бы"
+],
+"note": "You should go — «Тебе стоит пойти». l не читается: «шуд».",
+"examples": [
+"You should go.",
+"You should try it."
+]
+},
+"over": {
+"pos": [
+"preposition",
+"adverb"
+],
+"ipa": "/ˈoʊvɚ/",
+"ru": [
+"над",
+"через",
+"закончено"
+],
+"note": "It's over — «Всё кончено». over there — «вон там».",
+"examples": [
+"It's over.",
+"I have to start over."
+]
+},
+"little": {
+"pos": [
+"adjective"
+],
+"ipa": "/ˈlɪtəl/",
+"ru": [
+"маленький",
+"немного (a little)"
+],
+"note": "a little — «немного»: a little time. little без a — «мало»."
+},
+"day": {
+"pos": [
+"noun"
+],
+"ipa": "/deɪ/",
+"ru": [
+"день"
+],
+"note": "Have a nice day! — «Хорошего дня!»."
+},
+"into": {
+"pos": [
+"preposition"
+],
+"ipa": "/ˈɪntuː/",
+"ru": [
+"в (внутрь)"
+],
+"note": "in — где (in the room), into — куда (go into the room).",
+"examples": [
+"Come into the room.",
+"Get into the car."
+]
+},
+"bit": {
+"pos": [
+"noun"
+],
+"ipa": "/bɪt/",
+"ru": [
+"кусочек",
+"немного (a bit)"
+],
+"note": "a bit tired — «немного устал». Wait a bit — «Подожди чуть-чуть»."
+},
+"try": {
+"pos": [
+"verb"
+],
+"ipa": "/traɪ/",
+"ru": [
+"пытаться",
+"пробовать"
+],
+"note": "Try it! — «Попробуй!». try on — «примерять»."
+},
+"why": {
+"pos": [
+"adverb"
+],
+"ipa": "/waɪ/",
+"ru": [
+"почему",
+"зачем"
+],
+"note": "Why not? — «Почему бы и нет?»."
+},
+"okay": {
+"pos": [
+"interjection",
+"adjective"
+],
+"ipa": "/oʊˈkeɪ/",
+"ru": [
+"хорошо, ладно",
+"нормальный"
+],
+"note": "Пишут и OK. Are you okay? — «Ты в порядке?»."
+},
+"off": {
+"pos": [
+"adverb",
+"preposition"
+],
+"ipa": "/ɑːf/",
+"ru": [
+"выключено",
+"прочь, с (чего-то)"
+],
+"note": "turn off — «выключить»; take off — «снять»; a day off — «выходной».",
+"examples": [
+"Turn it off.",
+"I'm off today."
+]
+},
+"first": {
+"pos": [
+"adjective",
+"adverb"
+],
+"ipa": "/fɝːst/",
+"ru": [
+"первый",
+"сначала"
+],
+"note": "at first — «сначала»; first time — «первый раз»."
+},
+"than": {
+"pos": [
+"conjunction"
+],
+"ipa": "/ðæn/",
+"ru": [
+"чем"
+],
+"note": "bigger than me — «больше, чем я». Не путай с then — «потом»."
+},
+"too": {
+"pos": [
+"adverb"
+],
+"ipa": "/tuː/",
+"ru": [
+"тоже",
+"слишком"
+],
+"note": "Me too — «Я тоже»; too big — «слишком большой»."
+},
+"five": {
+"pos": [
+"number"
+],
+"ipa": "/faɪv/",
+"ru": [
+"пять"
+]
+},
+"let": {
+"pos": [
+"verb"
+],
+"ipa": "/let/",
+"ru": [
+"позволять",
+"пускать"
+],
+"note": "Let's go — «Давай пойдём». Let me see — «Дай-ка посмотрю».",
+"examples": [
+"Let's go.",
+"Let me see."
+]
+},
+"call": {
+"pos": [
+"verb",
+"noun"
+],
+"ipa": "/kɑːl/",
+"ru": [
+"звонить",
+"звать, называть",
+"звонок"
+],
+"note": "Call me — «Позвони мне». What do you call it? — «Как это называется?»."
+},
+"four": {
+"pos": [
+"number"
+],
+"ipa": "/fɔːr/",
+"ru": [
+"четыре"
+],
+"note": "Звучит так же, как for."
+},
+"last": {
+"pos": [
+"adjective",
+"verb"
+],
+"ipa": "/læst/",
+"ru": [
+"последний",
+"прошлый",
+"длиться"
+],
+"note": "last week — «на прошлой неделе»; at last — «наконец»."
+},
+"start": {
+"pos": [
+"verb",
+"noun"
+],
+"ipa": "/stɑːrt/",
+"ru": [
+"начинать(ся)",
+"начало"
+]
+},
+"quite": {
+"pos": [
+"adverb"
+],
+"ipa": "/kwaɪt/",
+"ru": [
+"довольно",
+"вполне, совсем"
+],
+"note": "Не путай с quiet /ˈkwaɪət/ — «тихий»."
+},
+"still": {
+"pos": [
+"adverb"
+],
+"ipa": "/stɪl/",
+"ru": [
+"всё ещё",
+"тем не менее"
+],
+"note": "I'm still here — «Я всё ещё здесь»."
+},
+"find": {
+"pos": [
+"verb"
+],
+"ipa": "/faɪnd/",
+"ru": [
+"находить"
+],
+"note": "Формы: find — found — found. find out — «узнать, выяснить»."
+},
+"probably": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈprɑːbəbli/",
+"ru": [
+"наверное",
+"вероятно"
+]
+},
+"even": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈiːvən/",
+"ru": [
+"даже"
+],
+"note": "even if — «даже если»; not even — «даже не»."
+},
+"might": {
+"pos": [
+"verb"
+],
+"ipa": "/maɪt/",
+"ru": [
+"может быть, возможно"
+],
+"note": "It might rain — «Может пойти дождь». gh не читается."
+},
+"through": {
+"pos": [
+"preposition"
+],
+"ipa": "/θruː/",
+"ru": [
+"через, сквозь"
+],
+"note": "Пишется длинно, звучит коротко: «сру» с th. Не путай с threw и though."
+},
+"point": {
+"pos": [
+"noun",
+"verb"
+],
+"ipa": "/pɔɪnt/",
+"ru": [
+"смысл, суть",
+"точка",
+"указывать"
+],
+"note": "What's the point? — «Какой смысл?». That's a good point — «Верно подмечено»."
+},
+"anything": {
+"pos": [
+"pronoun"
+],
+"ipa": "/ˈeniθɪŋ/",
+"ru": [
+"что-нибудь",
+"что угодно",
+"ничего (с not)"
+],
+"note": "I don't see anything — «Я ничего не вижу». Anything else? — «Что-нибудь ещё?»."
+},
+"week": {
+"pos": [
+"noun"
+],
+"ipa": "/wiːk/",
+"ru": [
+"неделя"
+],
+"note": "Не путай с weak — «слабый»: звучат одинаково."
+},
+"before": {
+"pos": [
+"preposition",
+"adverb"
+],
+"ipa": "/bɪˈfɔːr/",
+"ru": [
+"до, перед",
+"раньше"
+],
+"note": "before lunch — «перед обедом»; I've seen it before — «Я видел это раньше».",
+"examples": [
+"I've seen it before.",
+"He's done it before."
+]
+},
+"again": {
+"pos": [
+"adverb"
+],
+"ipa": "/əˈɡen/",
+"ru": [
+"снова, опять"
+],
+"note": "Say it again — «Скажи ещё раз»."
+},
+"problem": {
+"pos": [
+"noun"
+],
+"ipa": "/ˈprɑːbləm/",
+"ru": [
+"проблема"
+],
+"note": "No problem — «Без проблем», «Не за что»."
+},
+"never": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈnevɚ/",
+"ru": [
+"никогда"
+],
+"note": "Одно отрицание: I never eat meat (без don't)."
+},
+"same": {
+"pos": [
+"adjective"
+],
+"ipa": "/seɪm/",
+"ru": [
+"тот же, такой же",
+"одинаковый"
+],
+"note": "Почти всегда с the: the same. Same to you! — «И тебе того же!»."
+},
+"big": {
+"pos": [
+"adjective"
+],
+"ipa": "/bɪɡ/",
+"ru": [
+"большой"
+],
+"note": "g в конце звонкое: «биг», не «бик»."
+},
+"feel": {
+"pos": [
+"verb"
+],
+"ipa": "/fiːl/",
+"ru": [
+"чувствовать (себя)"
+],
+"note": "I feel good — «Я хорошо себя чувствую». Формы: feel — felt — felt.",
+"examples": [
+"I feel good.",
+"I didn't feel anything."
+]
+},
+"ask": {
+"pos": [
+"verb"
+],
+"ipa": "/æsk/",
+"ru": [
+"спрашивать",
+"просить"
+],
+"note": "ask a question — «задать вопрос»; ask for help — «попросить помощи»."
+},
+"question": {
+"pos": [
+"noun"
+],
+"ipa": "/ˈkwestʃən/",
+"ru": [
+"вопрос"
+],
+"note": "ask a question (не «make»). Звучит «квесчен»."
+},
+"also": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈɑːlsoʊ/",
+"ru": [
+"также, тоже"
+],
+"note": "Обычно стоит перед глаголом: I also like it."
+},
+"different": {
+"pos": [
+"adjective"
+],
+"ipa": "/ˈdɪfərənt/",
+"ru": [
+"другой",
+"разный"
+],
+"note": "different from — «отличается от»."
+},
+"sure": {
+"pos": [
+"adjective",
+"adverb"
+],
+"ipa": "/ʃʊr/",
+"ru": [
+"уверенный",
+"конечно"
+],
+"note": "Sure! — «Конечно!». Are you sure? — «Ты уверен?»."
+},
+"long": {
+"pos": [
+"adjective",
+"adverb"
+],
+"ipa": "/lɑːŋ/",
+"ru": [
+"длинный",
+"долго"
+],
+"note": "How long? — «Как долго?». ng в конце — носовой звук без «г»."
+},
+"always": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈɑːlweɪz/",
+"ru": [
+"всегда"
+]
+},
+"school": {
+"pos": [
+"noun"
+],
+"ipa": "/skuːl/",
+"ru": [
+"школа"
+],
+"note": "h не читается: «скул». go to school — без the."
+},
+"happen": {
+"pos": [
+"verb"
+],
+"ipa": "/ˈhæpən/",
+"ru": [
+"случаться, происходить"
+],
+"note": "What happened? — «Что случилось?»."
+},
+"course": {
+"pos": [
+"noun"
+],
+"ipa": "/kɔːrs/",
+"ru": [
+"курс",
+"конечно (of course)"
+],
+"note": "Of course! — «Конечно!»."
+},
+"keep": {
+"pos": [
+"verb"
+],
+"ipa": "/kiːp/",
+"ru": [
+"держать, хранить",
+"продолжать"
+],
+"note": "Keep going — «Продолжай». Keep it — «Оставь себе». Формы: keep — kept — kept.",
+"examples": [
+"Keep going.",
+"Keep it."
+]
+},
+"another": {
+"pos": [
+"determiner",
+"pronoun"
+],
+"ipa": "/əˈnʌðɚ/",
+"ru": [
+"ещё один",
+"другой"
+],
+"note": "another coffee — «ещё один кофе»; another time — «в другой раз»."
+},
+"nice": {
+"pos": [
+"adjective"
+],
+"ipa": "/naɪs/",
+"ru": [
+"приятный, милый",
+"хороший"
+],
+"note": "Nice to meet you — «Приятно познакомиться»."
+},
+"read": {
+"pos": [
+"verb"
+],
+"ipa": "/riːd/",
+"ru": [
+"читать"
+],
+"note": "Прошедшее пишется так же — read, но звучит /red/, как red."
+},
+"hundred": {
+"pos": [
+"number"
+],
+"ipa": "/ˈhʌndrəd/",
+"ru": [
+"сто"
+],
+"note": "two hundred — без -s: «двести»."
+},
+"leave": {
+"pos": [
+"verb"
+],
+"ipa": "/liːv/",
+"ru": [
+"уходить, уезжать",
+"оставлять"
+],
+"note": "Долгое «и»: leave. Короткое — live, «жить». Leave me alone — «Оставь меня в покое»."
+},
+"many": {
+"pos": [
+"determiner"
+],
+"ipa": "/ˈmeni/",
+"ru": [
+"много (о том, что считается)"
+],
+"note": "many people, many times; с неисчисляемым — much. How many? — «Сколько?»."
+},
+"after": {
+"pos": [
+"preposition",
+"conjunction"
+],
+"ipa": "/ˈæftɚ/",
+"ru": [
+"после"
+],
+"note": "after work — «после работы»."
+},
+"thank": {
+"pos": [
+"verb"
+],
+"ipa": "/θæŋk/",
+"ru": [
+"благодарить"
+],
+"note": "Thank you / Thanks — «Спасибо». th — язык между зубами: не «сэнк».",
+"examples": [
+"Thank you.",
+"How can I thank you?"
+]
+},
+"meet": {
+"pos": [
+"verb"
+],
+"ipa": "/miːt/",
+"ru": [
+"встречать(ся)",
+"знакомиться"
+],
+"note": "Nice to meet you — «Приятно познакомиться». Формы: meet — met — met.",
+"examples": [
+"Nice to meet you.",
+"Let's meet next week."
+]
+},
+"stuff": {
+"pos": [
+"noun"
+],
+"ipa": "/stʌf/",
+"ru": [
+"вещи, штуки",
+"всякое"
+],
+"note": "Неисчисляемое: my stuff — «мои вещи», and stuff — «и всё такое»."
+},
+"end": {
+"pos": [
+"noun",
+"verb"
+],
+"ipa": "/end/",
+"ru": [
+"конец",
+"заканчивать(ся)"
+],
+"note": "in the end — «в конце концов»."
+},
+"number": {
+"pos": [
+"noun"
+],
+"ipa": "/ˈnʌmbɚ/",
+"ru": [
+"номер",
+"число"
+],
+"note": "phone number — «номер телефона»."
+},
+"hear": {
+"pos": [
+"verb"
+],
+"ipa": "/hɪr/",
+"ru": [
+"слышать"
+],
+"note": "hear — слышать, listen — слушать. Формы: hear — heard /hɝːd/ — heard."
+},
+"next": {
+"pos": [
+"adjective"
+],
+"ipa": "/nekst/",
+"ru": [
+"следующий"
+],
+"note": "next week — «на следующей неделе» (без on/in)."
+},
+"six": {
+"pos": [
+"number"
+],
+"ipa": "/sɪks/",
+"ru": [
+"шесть"
+]
+},
+"pay": {
+"pos": [
+"verb"
+],
+"ipa": "/peɪ/",
+"ru": [
+"платить"
+],
+"note": "pay for — «платить за». Формы: pay — paid — paid."
+},
+"money": {
+"pos": [
+"noun"
+],
+"ipa": "/ˈmʌni/",
+"ru": [
+"деньги"
+],
+"note": "Неисчисляемое: money is (не are). Звучит «мани».",
+"examples": [
+"I don't need money."
+]
+},
+"place": {
+"pos": [
+"noun"
+],
+"ipa": "/pleɪs/",
+"ru": [
+"место"
+],
+"note": "my place — «ко мне домой»: Come to my place."
+},
+"remember": {
+"pos": [
+"verb"
+],
+"ipa": "/rɪˈmembɚ/",
+"ru": [
+"помнить",
+"вспоминать"
+],
+"note": "Remember me? — «Помнишь меня?»."
+},
+"maybe": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈmeɪbi/",
+"ru": [
+"может быть"
+]
+},
+"old": {
+"pos": [
+"adjective"
+],
+"ipa": "/oʊld/",
+"ru": [
+"старый"
+],
+"note": "Возраст: I'm 20 years old — «Мне 20 лет». How old are you? — «Сколько тебе лет?».",
+"examples": [
+"How old are you?",
+"I'm not so old."
+]
+},
+"test": {
+"pos": [
+"noun",
+"verb"
+],
+"ipa": "/test/",
+"ru": [
+"тест, проверка",
+"проверять"
+]
+},
+"home": {
+"pos": [
+"noun",
+"adverb"
+],
+"ipa": "/hoʊm/",
+"ru": [
+"дом (родной)",
+"домой",
+"дома"
+],
+"note": "go home — без to: «идти домой»; at home — «дома»."
+},
+"change": {
+"pos": [
+"verb",
+"noun"
+],
+"ipa": "/tʃeɪndʒ/",
+"ru": [
+"менять(ся)",
+"изменение",
+"сдача"
+],
+"note": "Keep the change — «Сдачи не надо»."
+},
+"though": {
+"pos": [
+"adverb",
+"conjunction"
+],
+"ipa": "/ðoʊ/",
+"ru": [
+"хотя",
+"впрочем, однако"
+],
+"note": "В конце фразы — «впрочем»: Thanks, though. gh не читается.",
+"examples": [
+"I did that, even though I didn't have to."
+]
+},
+"house": {
+"pos": [
+"noun"
+],
+"ipa": "/haʊs/",
+"ru": [
+"дом (здание)"
+],
+"note": "house — здание, home — свой дом, где живёшь."
+},
+"new": {
+"pos": [
+"adjective"
+],
+"ipa": "/nuː/",
+"ru": [
+"новый"
+],
+"note": "В американском — «ну», а не «нью»."
+},
+"live": {
+"pos": [
+"verb"
+],
+"ipa": "/lɪv/",
+"ru": [
+"жить"
+],
+"note": "Короткое «и»: live. Долгое — leave, «уходить». Where do you live? — «Где ты живёшь?»."
+},
+"part": {
+"pos": [
+"noun"
+],
+"ipa": "/pɑːrt/",
+"ru": [
+"часть"
+],
+"note": "part of — «часть (чего-то)»."
+},
+"kid": {
+"pos": [
+"noun",
+"verb"
+],
+"ipa": "/kɪd/",
+"ru": [
+"ребёнок (разг.)",
+"шутить"
+],
+"note": "Are you kidding? — «Ты шутишь?»."
+},
+"interest": {
+"pos": [
+"noun",
+"verb"
+],
+"ipa": "/ˈɪntrəst/",
+"ru": [
+"интерес",
+"проценты (в банке)"
+],
+"note": "interesting — «интересный»; interested — «заинтересованный»: I'm interested in music."
+},
+"around": {
+"pos": [
+"adverb",
+"preposition"
+],
+"ipa": "/əˈraʊnd/",
+"ru": [
+"вокруг",
+"около, примерно",
+"поблизости"
+],
+"note": "around five — «около пяти»; look around — «осмотреться»."
+},
+"write": {
+"pos": [
+"verb"
+],
+"ipa": "/raɪt/",
+"ru": [
+"писать"
+],
+"note": "w не читается: звучит как right. Формы: write — wrote — written."
+},
+"most": {
+"pos": [
+"adjective",
+"adverb"
+],
+"ipa": "/moʊst/",
+"ru": [
+"больше всего",
+"большинство"
+],
+"note": "most people — «большинство людей»; the most interesting — «самый интересный»."
+},
+"move": {
+"pos": [
+"verb"
+],
+"ipa": "/muːv/",
+"ru": [
+"двигаться",
+"переезжать"
+],
+"note": "Don't move! — «Не двигайся!». move to — «переехать в»."
+},
+"every": {
+"pos": [
+"determiner"
+],
+"ipa": "/ˈevri/",
+"ru": [
+"каждый"
+],
+"note": "every day — «каждый день». После every — единственное число: every student."
+},
+"today": {
+"pos": [
+"adverb",
+"noun"
+],
+"ipa": "/təˈdeɪ/",
+"ru": [
+"сегодня"
+]
+},
+"twenty": {
+"pos": [
+"number"
+],
+"ipa": "/ˈtwenti/",
+"ru": [
+"двадцать"
+],
+"note": "В американской речи часто «твэни»: t между n и гласной глотается."
+},
+"else": {
+"pos": [
+"adverb"
+],
+"ipa": "/els/",
+"ru": [
+"ещё",
+"другой"
+],
+"note": "What else? — «Что ещё?»; someone else — «кто-то другой»."
+},
+"anyway": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈeniweɪ/",
+"ru": [
+"в любом случае",
+"так или иначе"
+],
+"note": "Anyway... в начале фразы — «Ну ладно...», «В общем...»."
+},
+"child": {
+"pos": [
+"noun"
+],
+"ipa": "/tʃaɪld/",
+"ru": [
+"ребёнок"
+],
+"note": "Множественное — children /ˈtʃɪldrən/, не childs."
+},
+"buy": {
+"pos": [
+"verb"
+],
+"ipa": "/baɪ/",
+"ru": [
+"покупать"
+],
+"note": "Звучит как bye. Формы: buy — bought /bɑːt/ — bought."
+},
+"fact": {
+"pos": [
+"noun"
+],
+"ipa": "/fækt/",
+"ru": [
+"факт"
+],
+"note": "in fact — «на самом деле»."
+},
+"play": {
+"pos": [
+"verb",
+"noun"
+],
+"ipa": "/pleɪ/",
+"ru": [
+"играть",
+"пьеса"
+],
+"note": "play football — без the; play the guitar — с the.",
+"examples": [
+"Let's play.",
+"Don't play with me."
+]
+},
+"great": {
+"pos": [
+"adjective"
+],
+"ipa": "/ɡreɪt/",
+"ru": [
+"отличный",
+"великий",
+"огромный"
+],
+"note": "Great! — «Отлично!». Звучит «грэйт», не «грит»."
+},
+"job": {
+"pos": [
+"noun"
+],
+"ipa": "/dʒɑːb/",
+"ru": [
+"работа (должность)"
+],
+"note": "job — конкретная работа (a job), work — работа вообще. Good job! — «Молодец!»."
+},
+"seem": {
+"pos": [
+"verb"
+],
+"ipa": "/siːm/",
+"ru": [
+"казаться"
+],
+"note": "It seems... — «Похоже...», «Кажется...»."
+},
+"man": {
+"pos": [
+"noun"
+],
+"ipa": "/mæn/",
+"ru": [
+"мужчина",
+"человек"
+],
+"note": "Множественное — men. В речи Man! — восклицание «Ну и ну!», «Чувак»."
+},
+"night": {
+"pos": [
+"noun"
+],
+"ipa": "/naɪt/",
+"ru": [
+"ночь",
+"вечер"
+],
+"note": "Good night — «Спокойной ночи». last night — «вчера вечером».",
+"examples": [
+"Good night.",
+"I was up all night."
+]
+},
+"away": {
+"pos": [
+"adverb"
+],
+"ipa": "/əˈweɪ/",
+"ru": [
+"прочь",
+"далеко",
+"отсутствует"
+],
+"note": "Go away! — «Уходи!»; right away — «сразу же»."
+},
+"pound": {
+"pos": [
+"noun"
+],
+"ipa": "/paʊnd/",
+"ru": [
+"фунт (деньги, вес)"
+],
+"note": "Фунт стерлингов или мера веса ≈ 450 г."
+},
+"issue": {
+"pos": [
+"noun"
+],
+"ipa": "/ˈɪʃuː/",
+"ru": [
+"вопрос, проблема",
+"выпуск"
+],
+"note": "What's the issue? — «В чём проблема?».",
+"examples": [
+"That's not an issue."
+]
+},
+"own": {
+"pos": [
+"adjective",
+"verb"
+],
+"ipa": "/oʊn/",
+"ru": [
+"собственный",
+"владеть"
+],
+"note": "my own room — «моя собственная комната»; on my own — «сам, один»."
+}
+}

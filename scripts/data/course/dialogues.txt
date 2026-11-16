@@ -1,0 +1,350 @@
+@dialogue|Знакомство перед занятием
+Hi, is this your first day?|Привет, это твой первый день?
+Yes. I'm Alex.|Да. Я Алекс.
+I'm Mia. Nice to meet you.|Я Мия. Приятно познакомиться.
+Nice to meet you too. Can I sit here?|Мне тоже приятно. Можно сесть здесь?
+@dialogue|Как тебя зовут?
+Sorry, what's your name again?|Прости, как тебя зовут ещё раз?
+Ben. And you're Alex, right?|Бен. А ты Алекс, верно?
+That's right. I'm bad with names.|Верно. Я плохо запоминаю имена.
+No problem. We only met yesterday.|Ничего. Мы познакомились только вчера.
+@dialogue|Откуда ты?
+Where are you from?|Откуда ты?
+I'm from a small town. What about you?|Я из маленького города. А ты?
+I grew up here.|Я здесь вырос.
+Then you can show me around.|Тогда сможешь показать мне город.
+@dialogue|Свободное место
+Is anyone sitting here?|Здесь кто-нибудь сидит?
+No, go ahead.|Нет, садись.
+Thanks. My friend will be here soon.|Спасибо. Мой друг скоро придёт.
+There is another seat next to you.|Рядом с тобой есть ещё место.
+@dialogue|Не расслышал
+Could you say that again?|Можешь повторить?
+The class starts at ten.|Занятие начинается в десять.
+At ten, not at nine?|В десять, не в девять?
+Yes, you have another hour.|Да, у тебя ещё час.
+@dialogue|Номер аудитории
+Do you know where our class is?|Ты знаешь, где наше занятие?
+I think it's on the second floor.|Думаю, на втором этаже.
+Let's check the room number.|Давай проверим номер аудитории.
+Good idea. I was wrong last time.|Хорошая идея. В прошлый раз я ошибся.
+@dialogue|Одолжить ручку
+Can I use your pen?|Можно твою ручку?
+Of course. Here you go.|Конечно. Держи.
+I'll give it back after class.|Я верну её после занятия.
+Take your time. I have another one.|Не торопись. У меня есть другая.
+@dialogue|Домашнее задание
+What do we have to do for tomorrow?|Что нужно сделать на завтра?
+Read the first three pages.|Прочитать первые три страницы.
+Only read, or write something too?|Только читать или ещё что-то написать?
+Write short answers to the questions.|Написать короткие ответы на вопросы.
+@dialogue|Непонятное слово
+What does this word mean?|Что значит это слово?
+It means a person who teaches.|Человек, который учит.
+Oh, a teacher. I know that one.|А, учитель. Я знаю это слово.
+Try saying the sentence again.|Попробуй ещё раз сказать предложение.
+@dialogue|После занятий
+Are you doing anything after class?|Ты что-нибудь делаешь после занятий?
+I have to work for an hour.|Мне нужно час поработать.
+We can meet later, then.|Тогда можем встретиться позже.
+How about six?|Как насчёт шести?
+@dialogue|Заказать воду
+Can I have some water, please?|Можно воды, пожалуйста?
+Of course. Cold water?|Конечно. Холодной?
+Yes, please. A small glass.|Да, пожалуйста. Небольшой стакан.
+Here you are.|Вот, пожалуйста.
+@dialogue|Выбор обеда
+What would you like to eat?|Что бы ты хотел поесть?
+I'm not sure. What are you having?|Не уверен. А ты что берёшь?
+I think I'll have this.|Думаю, возьму вот это.
+That looks good. I'll have the same.|Выглядит хорошо. Я возьму то же самое.
+@dialogue|Счёт
+The check, please.|Счёт, пожалуйста.
+Together or separate?|Вместе или раздельно?
+Separate, please.|Раздельно, пожалуйста.
+No problem. I'll be right back.|Без проблем. Я сейчас вернусь.
+@dialogue|Оплата картой
+Do you take cards?|Вы принимаете карты?
+Yes. Please use the machine here.|Да. Воспользуйтесь устройством здесь.
+Is it working now?|Теперь работает?
+Yes, the payment went through. Thank you.|Да, платёж прошёл. Спасибо.
+@dialogue|Не тот заказ
+Sorry, I ordered tea, not coffee.|Извините, я заказал чай, не кофе.
+I'm sorry. I'll change it.|Простите. Я заменю.
+Thank you. Take your time.|Спасибо. Не спешите.
+Your tea will be here in a minute.|Ваш чай будет через минуту.
+@dialogue|В магазине
+Can I help you?|Вам помочь?
+I'm just looking, thank you.|Я просто смотрю, спасибо.
+Let me know if you need anything.|Скажите, если что-нибудь понадобится.
+I will. Thanks.|Скажу. Спасибо.
+@dialogue|Цена
+How much is this one?|Сколько стоит этот?
+Twenty dollars.|Двадцать долларов.
+And the smaller one?|А поменьше?
+That's fifteen.|Тот — пятнадцать.
+@dialogue|Примерка
+Can I try this on?|Можно примерить?
+Sure. What size do you need?|Конечно. Какой размер нужен?
+I'm not sure. Maybe a medium.|Не уверен. Может, средний.
+Try this one first.|Сначала попробуйте этот.
+@dialogue|Возврат покупки
+I'd like to return this.|Я хотел бы это вернуть.
+Is there a problem with it?|С ним что-то не так?
+It doesn't fit. It's too small.|Не подходит. Слишком маленький.
+Would you like a larger one instead?|Хотите вместо него размер побольше?
+@dialogue|Покупки для ужина
+Do we need anything else?|Нам нужно что-нибудь ещё?
+We have food, but no drinks.|Еда есть, но напитков нет.
+I'll get some water.|Я возьму воды.
+Great. Then we can go home.|Отлично. Тогда можно домой.
+@dialogue|Путь к вокзалу
+How do I get to the station?|Как пройти к вокзалу?
+Go straight and turn left.|Идите прямо и поверните налево.
+Is it far?|Это далеко?
+No, about five minutes on foot.|Нет, минут пять пешком.
+@dialogue|Нужный автобус
+Does this bus go to the center?|Этот автобус идёт в центр?
+Yes, but it takes a long time.|Да, но едет долго.
+Is there a faster way?|Есть путь быстрее?
+You can take the train.|Можно на поезде.
+@dialogue|Покупка билета
+I'd like a ticket for tomorrow.|Я хотел бы билет на завтра.
+One way or round trip?|В одну сторону или туда и обратно?
+One way, please.|В одну сторону, пожалуйста.
+What time would you like to leave?|В какое время вы хотите выехать?
+@dialogue|Опоздание
+Where are you? We're waiting.|Ты где? Мы ждём.
+I'm sorry. I'm on my way.|Прости. Я уже еду.
+How long will you be?|Через сколько будешь?
+About ten minutes.|Минут через десять.
+@dialogue|Не тот вход
+I'm outside, but I can't see you.|Я снаружи, но не вижу тебя.
+I'm by the main door.|Я у главной двери.
+Oh, I'm on the other side.|А, я с другой стороны.
+Stay there. I'll come to you.|Стой там. Я подойду.
+@dialogue|Такси
+Where would you like to go?|Куда хотите поехать?
+To the station, please.|На вокзал, пожалуйста.
+Do you have the address?|У вас есть адрес?
+Yes, here it is on my phone.|Да, вот он в телефоне.
+@dialogue|В отеле
+I have a room for tonight.|У меня забронирован номер на сегодня.
+What name is it under?|На какое имя?
+Alex. I booked it yesterday.|Алекс. Я бронировал вчера.
+Yes, I can see it here.|Да, я вижу вашу бронь.
+@dialogue|Тихий номер
+Is there another room available?|Есть другой свободный номер?
+What's wrong with this one?|Что не так с этим?
+It's a little noisy.|Немного шумно.
+Let me check what we have.|Я посмотрю, что есть.
+@dialogue|Потерялся
+I think we're lost.|Думаю, мы заблудились.
+Let's look at the map again.|Давай ещё раз посмотрим карту.
+We should have turned right.|Нам нужно было повернуть направо.
+It's okay. We can go back.|Ничего. Можно вернуться.
+@dialogue|Возвращение домой
+What time is our train home?|Во сколько наш поезд домой?
+At eight. We still have an hour.|В восемь. У нас ещё час.
+Let's go to the station early.|Давай придём на вокзал заранее.
+Good idea. I don't want to run again.|Хорошая идея. Не хочу снова бежать.
+@dialogue|Встреча на выходных
+Are you free on Saturday?|Ты свободен в субботу?
+In the afternoon, yes.|После обеда — да.
+Do you want to go to the park?|Хочешь пойти в парк?
+Sounds good. What time?|Звучит хорошо. Во сколько?
+@dialogue|Смена планов
+I can't come tonight.|Я сегодня не смогу прийти.
+Is everything okay?|Всё хорошо?
+Yes, I just have too much work.|Да, просто слишком много работы.
+No problem. Let's meet tomorrow.|Без проблем. Давай встретимся завтра.
+@dialogue|Приглашение домой
+Would you like to come over?|Хочешь зайти ко мне?
+Sure. Should I bring anything?|Конечно. Мне что-нибудь принести?
+Just something to drink.|Только что-нибудь попить.
+I'll be there at seven.|Я буду в семь.
+@dialogue|Выбор фильма
+What should we watch?|Что посмотрим?
+How about a comedy?|Может, комедию?
+I've seen this one already.|Я этот уже видел.
+Then let's choose another one.|Тогда давай выберем другой.
+@dialogue|Обсуждение фильма
+What did you think of the movie?|Что думаешь о фильме?
+I liked it, but the ending was strange.|Мне понравился, но конец странный.
+Really? That was my favorite part.|Правда? Это была моя любимая часть.
+Tell me why. Maybe I missed something.|Расскажи почему. Может, я что-то упустил.
+@dialogue|Совместная игра
+Have you played this before?|Ты играл в это раньше?
+No. Is it difficult?|Нет. Это сложно?
+Not really. I'll show you.|Не очень. Я покажу.
+Okay, but go slowly at first.|Хорошо, только сначала не спеши.
+@dialogue|Пора заканчивать
+It's getting late.|Уже поздно.
+One more game?|Ещё одну игру?
+I have an early class tomorrow.|У меня завтра раннее занятие.
+You're right. Let's call it a day.|Ты прав. Давай на сегодня закончим.
+@dialogue|День рождения
+Happy birthday, Ben!|С днём рождения, Бен!
+Thank you so much! I did not think you would remember the date.|Большое спасибо! Я не думал, что ты вспомнишь дату.
+I got you something small.|У меня для тебя небольшой подарок.
+You didn't have to. Come in!|Не стоило. Входи!
+@dialogue|Небольшой подарок
+This is for you.|Это тебе.
+That's so kind. What is it?|Как мило. Что это?
+Open it and see.|Открой и посмотри.
+A book! I've wanted to read this.|Книга! Я давно хотел её прочитать.
+@dialogue|Поддержка друга
+I don't think I can do this.|Не думаю, что справлюсь.
+You don't have to do it all today.|Тебе не нужно делать всё сегодня.
+Where should I start?|С чего начать?
+Let's do the first part together.|Давай сделаем первую часть вместе.
+@dialogue|Вопрос о работе
+What do you do at the store?|Чем ты занимаешься в магазине?
+I help people choose computers.|Помогаю людям выбирать компьютеры.
+Do you enjoy it?|Тебе нравится?
+Yes. I learn something new every day.|Да. Каждый день узнаю что-то новое.
+@dialogue|На собеседовании
+Why would you like to work here?|Почему вы хотите работать здесь?
+I enjoy helping people solve problems.|Мне нравится помогать людям решать проблемы.
+Have you worked in a store before?|Вы раньше работали в магазине?
+Not yet, but I'm ready to learn.|Пока нет, но я готов учиться.
+@dialogue|Первое задание
+Can you check this computer?|Можешь проверить этот компьютер?
+Sure. What's the problem?|Конечно. В чём проблема?
+The screen goes black sometimes.|Иногда экран становится чёрным.
+I'll take a look and let you know.|Я посмотрю и сообщу.
+@dialogue|Просьба о помощи
+Could you help me with this?|Можешь помочь мне с этим?
+Of course. What have you tried?|Конечно. Что ты уже пробовал?
+I changed this part, but it still fails.|Я изменил эту часть, но всё равно не работает.
+Let's look at the message first.|Давай сначала посмотрим сообщение.
+@dialogue|Рабочий срок
+When do you need it?|Когда это нужно?
+By Friday afternoon.|К пятнице после обеда.
+That's possible if we start today.|Это возможно, если начать сегодня.
+Good. Let's make a plan.|Хорошо. Давай составим план.
+@dialogue|Неясные требования
+What should the picture show?|Что должно быть на картинке?
+Something that makes people feel welcome.|Что-то, создающее ощущение гостеприимства.
+Who will see it?|Кто её увидит?
+New students at the school.|Новые студенты вуза.
+@dialogue|Проверка результата
+Have you finished your part?|Ты закончил свою часть?
+Almost. I need another ten minutes.|Почти. Нужно ещё десять минут.
+Can I check it after that?|Можно потом проверить?
+Please do. I might have missed something.|Пожалуйста. Я мог что-то упустить.
+@dialogue|Признание ошибки
+I think I made a mistake.|Кажется, я ошибся.
+What happened?|Что случилось?
+I sent the old file.|Я отправил старый файл.
+Let's send the correct one now.|Давай сейчас отправим правильный.
+@dialogue|Получить совет
+Should I buy a new computer?|Стоит купить новый компьютер?
+What do you need it for?|Для чего он нужен?
+Mostly reading and writing.|В основном читать и писать.
+Then your old one may be enough.|Тогда старого может хватить.
+@dialogue|Небольшой перерыв
+We've been working for two hours.|Мы работаем уже два часа.
+I know. I can't focus anymore.|Знаю. Уже не могу сосредоточиться.
+Let's take a short walk.|Давай немного прогуляемся.
+Good idea. We can continue after that.|Хорошая идея. Потом продолжим.
+@dialogue|Плохое самочувствие
+You look tired. Are you okay?|Ты выглядишь уставшим. Всё нормально?
+I didn't sleep well last night.|Я плохо спал прошлой ночью.
+Maybe you should rest today.|Может, стоит сегодня отдохнуть.
+I think you're right.|Думаю, ты прав.
+@dialogue|Запись на приём
+I'd like to see a doctor.|Я хотел бы попасть к врачу.
+Is tomorrow morning okay?|Завтра утром подойдёт?
+Yes. What time?|Да. Во сколько?
+We have a time available at nine.|Есть свободное время в девять.
+@dialogue|Описание проблемы
+How long have you had this cough?|Как давно у вас кашель?
+For about three days.|Около трёх дней.
+Do you have any other problems?|Есть другие жалобы?
+I'm tired, but I don't feel hot.|Я устал, но жара не чувствую.
+@dialogue|Погода
+It looks like it's going to rain.|Похоже, будет дождь.
+Should we stay home?|Нам остаться дома?
+Let's wait a few minutes.|Давай подождём несколько минут.
+Okay. We don't have to leave yet.|Хорошо. Нам ещё не обязательно выходить.
+@dialogue|Договориться о времени
+Is ten too early for you?|Десять — слишком рано для тебя?
+A little. How about eleven?|Немного. Как насчёт одиннадцати?
+That works for me.|Мне подходит.
+Great. See you then.|Отлично. Тогда до встречи.
+@dialogue|Чужая вещь
+Is this your bag?|Это твоя сумка?
+No, mine is smaller.|Нет, моя меньше.
+It was under your chair.|Она была под твоим стулом.
+Maybe it is Mia's.|Возможно, она принадлежит Мии.
+@dialogue|Сосед просит тише
+Could you turn the music down?|Можешь сделать музыку тише?
+Sorry. Is it too loud?|Прости. Слишком громко?
+A little. I'm trying to study.|Немного. Я пытаюсь учиться.
+Of course. I'll turn it down.|Конечно. Сейчас сделаю тише.
+@dialogue|Уборка вместе
+I'll clean the table.|Я уберу стол.
+Then I'll do the dishes.|Тогда я помою посуду.
+Do you need any help?|Тебе помочь?
+No, there aren't many. Thank you.|Нет, их немного. Спасибо.
+@dialogue|Разговор о привычке
+How do you find time for English?|Как ты находишь время для английского?
+I do a little before my first class.|Я немного занимаюсь до первого занятия.
+Every day?|Каждый день?
+Most days. Even ten minutes helps.|Почти каждый. Даже десять минут помогают.
+@dialogue|Непонятная реплика
+What did he just say?|Что он только что сказал?
+I'm not sure. Play it again.|Не уверен. Включи ещё раз.
+Oh, now I hear it.|А, теперь слышу.
+Yes, the words run together.|Да, слова сливаются.
+@dialogue|Медленное повторение
+Can you say it more slowly?|Можешь сказать медленнее?
+Of course. Listen to each word.|Конечно. Послушай каждое слово.
+Now I understand.|Теперь понимаю.
+Good. Let's try it at normal speed.|Хорошо. Давай попробуем с обычной скоростью.
+@dialogue|Связная речь
+Did she say going to?|Она сказала going to?
+Yes, but it sounded like gonna.|Да, но прозвучало как gonna.
+Can I write it that way too?|Можно и писать так же?
+In messages to friends, yes. Use the full form in letters for work.|В неформальной переписке да. В официальном тексте используй полную форму.
+@dialogue|Произношение
+I keep saying these two words the same way.|Я постоянно произношу эти два слова одинаково.
+Listen first, without looking at the text.|Сначала послушай, не глядя на текст.
+I can hear a difference now.|Теперь слышу разницу.
+Good. Now try saying them slowly.|Хорошо. Теперь попробуй медленно произнести их.
+@dialogue|Сохранение копии
+Did you save a copy of your work?|Ты сохранил копию работы?
+Only on this computer.|Только на этом компьютере.
+You should keep another copy somewhere safe.|Стоит хранить ещё одну копию в безопасном месте.
+You're right. I'll do that now.|Ты прав. Сделаю сейчас.
+@dialogue|Другой телефон
+Will my progress be on the new phone?|Прогресс будет на новом телефоне?
+Yes, if you use the same account for shared progress.|Да, если подключить ту же учётную запись для синхронизации.
+What if I don't have a connection?|А если нет интернета?
+You can use a saved file instead.|Можно воспользоваться сохранённым файлом.
+@dialogue|Планы на месяц
+What would you like to improve next month?|Что бы ты хотел улучшить в следующем месяце?
+I want to understand people when they speak fast.|Хочу понимать людей, когда они быстро говорят.
+How will you practice?|Как будешь тренироваться?
+I'll listen to short scenes every day.|Буду каждый день слушать короткие сцены.
+@dialogue|Приглашение в команду
+Would you like to join our project?|Хочешь присоединиться к нашему проекту?
+Maybe. What are you making?|Возможно. Что вы делаете?
+A small program for students.|Небольшую программу для студентов.
+That sounds useful. Tell me more.|Звучит полезно. Расскажи подробнее.
+@dialogue|Не согласен, но слушаю
+I don't think this is the best choice.|Не думаю, что это лучший выбор.
+What would you do instead?|Что бы ты сделал вместо этого?
+I'd start with something simpler.|Я бы начал с чего-нибудь проще.
+Okay, let's compare both options.|Хорошо, давай сравним оба варианта.
+@dialogue|Результат курса
+Do you feel any different after three months?|Чувствуешь разницу после трёх месяцев?
+Yes. I can understand more than before.|Да. Понимаю больше, чем раньше.
+Are movies easy now?|Теперь фильмы даются легко?
+Not yet, but short scenes are getting easier.|Пока нет, но короткие сцены становятся понятнее.
+@dialogue|Следующий шаг
+So, what happens after the course?|И что после курса?
+I keep reviewing and learning new words.|Продолжаю повторять и учить новые слова.
+Will you watch more English too?|Будешь больше смотреть на английском?
+Yes, a little every day. That's the next step.|Да, понемногу каждый день. Это следующий шаг.

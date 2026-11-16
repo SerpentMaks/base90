@@ -2,10 +2,18 @@
  * Локальная база (IndexedDB через Dexie). Миграции — только добавлением новых
  * версий db.version(N); старые версии не удалять, данные пользователя не теряются.
  */
-import Dexie, { type EntityTable } from 'dexie';
-import type { FsrsCard } from '../lib/fsrs';
+import Dexie, { type EntityTable } from "dexie";
+import type { FsrsCard } from "../lib/fsrs";
 
-export type CardKind = 'listen' | 'produce' | 'cloze' | 'grammar' | 'pair' | 'speech' | 'dictation';
+export type CardKind =
+  | "listen"
+  | "produce"
+  | "cloze"
+  | "grammar"
+  | "pair"
+  | "speech"
+  | "dictation"
+  | "shadow";
 
 export interface CardRow {
   id: string; // `${kind}:${itemId}`
@@ -52,20 +60,20 @@ export interface KvRow {
 }
 
 export class Base90DB extends Dexie {
-  cards!: EntityTable<CardRow, 'id'>;
-  reviewLogs!: EntityTable<ReviewLogRow, 'id'>;
-  days!: EntityTable<DayRow, 'date'>;
-  progress!: EntityTable<KvRow, 'key'>;
-  settings!: EntityTable<KvRow, 'key'>;
+  cards!: EntityTable<CardRow, "id">;
+  reviewLogs!: EntityTable<ReviewLogRow, "id">;
+  days!: EntityTable<DayRow, "date">;
+  progress!: EntityTable<KvRow, "key">;
+  settings!: EntityTable<KvRow, "key">;
 
-  constructor(name = 'base90') {
+  constructor(name = "base90") {
     super(name);
     this.version(1).stores({
-      cards: 'id, itemId, kind, due, availableAt',
-      reviewLogs: 'id, cardId, reviewedAt, studyDate',
-      days: 'date',
-      progress: 'key',
-      settings: 'key',
+      cards: "id, itemId, kind, due, availableAt",
+      reviewLogs: "id, cardId, reviewedAt, studyDate",
+      days: "date",
+      progress: "key",
+      settings: "key",
     });
   }
 }

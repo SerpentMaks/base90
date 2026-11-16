@@ -1,0 +1,1223 @@
+{
+"be": {
+"pos": [
+"verb"
+],
+"ipa": "/biː/",
+"ru": [
+"быть",
+"находиться",
+"являться"
+],
+"note": "В настоящем времени не пропускается: I am happy — «Я счастлив». Формы: am, is, are; was, were.",
+"examples": [
+"I'm not sure.",
+"Are you OK?"
+]
+},
+"the": {
+"pos": [
+"determiner"
+],
+"ipa": "/ðə/",
+"ru": [
+"определённый артикль"
+],
+"note": "Ставится, когда понятно, о чём речь: the door — «та самая дверь». Перед гласной звучит /ði/.",
+"examples": [
+"Close the door.",
+"What's the time?"
+]
+},
+"you": {
+"pos": [
+"pronoun"
+],
+"ipa": "/juː/",
+"ru": [
+"ты",
+"вы"
+],
+"note": "you — и «ты», и «вы». Вежливость в английском — в тоне и словах please, thank you.",
+"examples": [
+"It's up to you.",
+"I'll be with you."
+]
+},
+"and": {
+"pos": [
+"conjunction"
+],
+"ipa": "/ænd/",
+"ru": [
+"и",
+"а"
+],
+"note": "В быстрой речи звучит /ən/: rock and roll ≈ «рок-н-ролл»."
+},
+"it": {
+"pos": [
+"pronoun"
+],
+"ipa": "/ɪt/",
+"ru": [
+"это",
+"он, она, оно (о предмете)"
+],
+"note": "Подлежащее обязательно: It's cold — «Холодно». Без it так сказать нельзя.",
+"examples": [
+"Do it now.",
+"I like it here."
+]
+},
+"to": {
+"pos": [
+"preposition"
+],
+"ipa": "/tuː/",
+"ru": [
+"к, в (куда)",
+"частица перед глаголом"
+],
+"note": "go to school — «идти в школу»; want to go — to перед глаголом не переводится. В речи /tə/."
+},
+"a": {
+"pos": [
+"determiner"
+],
+"ipa": "/ə/",
+"ru": [
+"неопределённый артикль",
+"один, какой-то"
+],
+"note": "Перед гласным звуком — an: an apple. Ставится, когда предмет один из многих: a book — «(какая-то) книга».",
+"examples": [
+"I have a question.",
+"I have a dog."
+]
+},
+"have": {
+"pos": [
+"verb"
+],
+"ipa": "/hæv/",
+"ru": [
+"иметь",
+"есть (у кого-то)"
+],
+"note": "I have a car — «У меня есть машина». have to — «должен»: I have to go.",
+"examples": [
+"I have a car.",
+"Do you have time?"
+]
+},
+"of": {
+"pos": [
+"preposition"
+],
+"ipa": "/ʌv/",
+"ru": [
+"из (часть чего-то)",
+"о, об"
+],
+"note": "Часто = родительный падеж: a cup of tea — «чашка чая». В речи звучит /əv/, почти «ов».",
+"examples": [
+{
+"en": "I want a cup of tea.",
+"ru": "Я хочу чашку чая.",
+"source": "generated"
+},
+{
+"en": "Some of them know it.",
+"ru": "Некоторые из них это знают.",
+"source": "generated"
+}
+]
+},
+"do": {
+"pos": [
+"verb"
+],
+"ipa": "/duː/",
+"ru": [
+"делать"
+],
+"note": "Ещё помогает строить вопросы и отрицания: Do you know? I don't know."
+},
+"not": {
+"pos": [
+"adverb"
+],
+"ipa": "/nɑːt/",
+"ru": [
+"не"
+],
+"note": "В речи сливается: do not → don't, is not → isn't, can not → can't."
+},
+"that": {
+"pos": [
+"pronoun",
+"conjunction"
+],
+"ipa": "/ðæt/",
+"ru": [
+"тот, то, это",
+"что (союз)"
+],
+"note": "That's right — «Верно». I know that... — «Я знаю, что...». Множественное — those.",
+"examples": [
+"That's right.",
+"Who's that?"
+]
+},
+"they": {
+"pos": [
+"pronoun"
+],
+"ipa": "/ðeɪ/",
+"ru": [
+"они"
+],
+"note": "th звонкое: язык между зубами + голос. Не «зэй» и не «дэй»."
+},
+"we": {
+"pos": [
+"pronoun"
+],
+"ipa": "/wiː/",
+"ru": [
+"мы"
+],
+"note": "w — губы трубочкой, как «уи». Не русское «в»."
+},
+"in": {
+"pos": [
+"preposition"
+],
+"ipa": "/ɪn/",
+"ru": [
+"в (внутри)",
+"через (о времени)"
+],
+"note": "in the room — «в комнате»; in five minutes — «через пять минут».",
+"examples": [
+"I'm in the car.",
+"Come in."
+]
+},
+"he": {
+"pos": [
+"pronoun"
+],
+"ipa": "/hiː/",
+"ru": [
+"он"
+],
+"note": "h — лёгкий выдох, как будто греешь руки. Не русское «х»."
+},
+"know": {
+"pos": [
+"verb"
+],
+"ipa": "/noʊ/",
+"ru": [
+"знать"
+],
+"note": "k в начале не читается: know звучит как no."
+},
+"get": {
+"pos": [
+"verb"
+],
+"ipa": "/ɡet/",
+"ru": [
+"получать",
+"становиться",
+"добираться"
+],
+"note": "Многозначное: get up — вставать, get it — понять, get home — добраться домой, get tired — устать."
+},
+"go": {
+"pos": [
+"verb"
+],
+"ipa": "/ɡoʊ/",
+"ru": [
+"идти",
+"ехать"
+],
+"note": "Звучит «гоу», а не «го»: звук в конце скользит к «у»."
+},
+"so": {
+"pos": [
+"adverb",
+"conjunction"
+],
+"ipa": "/soʊ/",
+"ru": [
+"так",
+"поэтому",
+"очень"
+],
+"note": "So... в начале фразы — «Итак...», «Ну...». I think so — «Думаю, да»."
+},
+"this": {
+"pos": [
+"pronoun",
+"determiner"
+],
+"ipa": "/ðɪs/",
+"ru": [
+"этот, это"
+],
+"note": "Множественное — these: this book, these books."
+},
+"but": {
+"pos": [
+"conjunction"
+],
+"ipa": "/bʌt/",
+"ru": [
+"но"
+]
+},
+"on": {
+"pos": [
+"preposition"
+],
+"ipa": "/ɑːn/",
+"ru": [
+"на (поверхности)",
+"включено"
+],
+"note": "on the table — «на столе»; on Monday — «в понедельник»; The TV is on — «Телевизор включён».",
+"examples": [
+"I sat on the floor.",
+"He's on his way."
+]
+},
+"I": {
+"pos": [
+"pronoun"
+],
+"ipa": "/aɪ/",
+"ru": [
+"я"
+],
+"note": "Всегда с большой буквы, даже в середине предложения."
+},
+"for": {
+"pos": [
+"preposition"
+],
+"ipa": "/fɔːr/",
+"ru": [
+"для",
+"на (срок)",
+"за"
+],
+"note": "for you — «для тебя»; for two days — «на два дня / в течение двух дней»; thanks for — «спасибо за»."
+},
+"think": {
+"pos": [
+"verb"
+],
+"ipa": "/θɪŋk/",
+"ru": [
+"думать",
+"считать"
+],
+"note": "th — кончик языка между зубами. Не «синк» и не «финк».",
+"examples": [
+"I think so.",
+"What do you think now?"
+]
+},
+"like": {
+"pos": [
+"verb",
+"preposition"
+],
+"ipa": "/laɪk/",
+"ru": [
+"нравиться",
+"как, похоже на"
+],
+"note": "I like it — «Мне это нравится». В речи like — ещё и вставка «типа».",
+"examples": [
+"I like it.",
+"Do you like it?"
+]
+},
+"there": {
+"pos": [
+"adverb"
+],
+"ipa": "/ðer/",
+"ru": [
+"там, туда"
+],
+"note": "There is / there are — «есть, имеется»: There's a problem — «Есть проблема»."
+},
+"will": {
+"pos": [
+"verb"
+],
+"ipa": "/wɪl/",
+"ru": [
+"будет (будущее время)"
+],
+"note": "I will go = I'll go — «Я пойду». will not = won't."
+},
+"say": {
+"pos": [
+"verb"
+],
+"ipa": "/seɪ/",
+"ru": [
+"сказать, говорить"
+],
+"note": "say что-то: say hello; tell кому-то: tell me. Прошедшее said звучит «сэд»."
+},
+"she": {
+"pos": [
+"pronoun"
+],
+"ipa": "/ʃiː/",
+"ru": [
+"она"
+],
+"note": "sh мягче русского «ш», губы чуть вперёд."
+},
+"what": {
+"pos": [
+"pronoun",
+"determiner"
+],
+"ipa": "/wʌt/",
+"ru": [
+"что",
+"какой"
+],
+"note": "What? — «Что?»; What time? — «Какое время / Который час?»."
+},
+"just": {
+"pos": [
+"adverb"
+],
+"ipa": "/dʒʌst/",
+"ru": [
+"просто",
+"только что",
+"как раз"
+],
+"note": "Just a minute — «Минутку». I just ate — «Я только что поел»."
+},
+"well": {
+"pos": [
+"adverb",
+"interjection"
+],
+"ipa": "/wel/",
+"ru": [
+"хорошо",
+"ну (в начале фразы)"
+],
+"note": "Well... — «Ну...» перед ответом. well — наречие от good: She sings well.",
+"examples": [
+"Well, that's life.",
+"I didn't do well."
+]
+},
+"one": {
+"pos": [
+"number",
+"pronoun"
+],
+"ipa": "/wʌn/",
+"ru": [
+"один",
+"(заменяет слово): this one — этот"
+],
+"note": "Звучит «уан», а не «оне». Which one? — «Который?»."
+},
+"with": {
+"pos": [
+"preposition"
+],
+"ipa": "/wɪð/",
+"ru": [
+"с"
+],
+"note": "with me — «со мной». th на конце — язык между зубами."
+},
+"if": {
+"pos": [
+"conjunction"
+],
+"ipa": "/ɪf/",
+"ru": [
+"если",
+"ли"
+],
+"note": "I don't know if he's here — «Я не знаю, здесь ли он»."
+},
+"at": {
+"pos": [
+"preposition"
+],
+"ipa": "/æt/",
+"ru": [
+"в, на (в точке)",
+"у"
+],
+"note": "at home — «дома», at school — «в школе», at 5 — «в пять часов»."
+},
+"all": {
+"pos": [
+"determiner",
+"pronoun"
+],
+"ipa": "/ɑːl/",
+"ru": [
+"все, всё",
+"весь"
+],
+"note": "That's all — «Это всё». all day — «весь день»."
+},
+"about": {
+"pos": [
+"preposition",
+"adverb"
+],
+"ipa": "/əˈbaʊt/",
+"ru": [
+"о, про",
+"около, примерно"
+],
+"note": "What about you? — «А ты?» / «А как насчёт тебя?»."
+},
+"or": {
+"pos": [
+"conjunction"
+],
+"ipa": "/ɔːr/",
+"ru": [
+"или"
+]
+},
+"as": {
+"pos": [
+"conjunction",
+"preposition"
+],
+"ipa": "/æz/",
+"ru": [
+"как",
+"так как",
+"в качестве"
+],
+"note": "as big as — «такой же большой, как»; work as a teacher — «работать учителем»."
+},
+"would": {
+"pos": [
+"verb"
+],
+"ipa": "/wʊd/",
+"ru": [
+"бы"
+],
+"note": "I would like = I'd like — «Я бы хотел». l не читается: «вуд»."
+},
+"then": {
+"pos": [
+"adverb"
+],
+"ipa": "/ðen/",
+"ru": [
+"потом, затем",
+"тогда"
+],
+"note": "Не путай с than (чем): bigger than me."
+},
+"because": {
+"pos": [
+"conjunction"
+],
+"ipa": "/bɪˈkɑːz/",
+"ru": [
+"потому что"
+],
+"note": "В разговоре часто cause или 'cos."
+},
+"right": {
+"pos": [
+"adjective",
+"adverb"
+],
+"ipa": "/raɪt/",
+"ru": [
+"правильный, верно",
+"правый",
+"прямо"
+],
+"note": "That's right — «Верно». Right? в конце — «да?», «правда?». right now — «прямо сейчас»."
+},
+"can": {
+"pos": [
+"verb"
+],
+"ipa": "/kæn/",
+"ru": [
+"мочь",
+"уметь"
+],
+"note": "В речи can звучит коротко /kən/, а can't — чётко /kænt/. Это главный способ их различать.",
+"examples": [
+"Can you help me?",
+"I can swim."
+]
+},
+"no": {
+"pos": [
+"determiner",
+"interjection"
+],
+"ipa": "/noʊ/",
+"ru": [
+"нет",
+"никакой"
+],
+"note": "No problem — «Без проблем». В английском одно отрицание: I have no money."
+},
+"up": {
+"pos": [
+"adverb",
+"preposition"
+],
+"ipa": "/ʌp/",
+"ru": [
+"вверх",
+"наверху"
+],
+"note": "Часто часть фразового глагола: get up — вставать, give up — сдаваться, What's up? — «Как дела?»."
+},
+"mean": {
+"pos": [
+"verb",
+"adjective"
+],
+"ipa": "/miːn/",
+"ru": [
+"значить",
+"иметь в виду",
+"злой, вредный"
+],
+"note": "I mean... — «То есть...», «Я имею в виду...». Прошедшее meant — «мэнт»."
+},
+"out": {
+"pos": [
+"adverb"
+],
+"ipa": "/aʊt/",
+"ru": [
+"наружу, вне",
+"нет дома"
+],
+"note": "go out — «выходить, гулять»; find out — «узнать»; He's out — «Его нет».",
+"examples": [
+"Get out!",
+"We're out of time."
+]
+},
+"see": {
+"pos": [
+"verb"
+],
+"ipa": "/siː/",
+"ru": [
+"видеть",
+"понимать"
+],
+"note": "I see — «Понятно». See you! — «Пока, увидимся!».",
+"examples": [
+"I see.",
+"See you tomorrow."
+]
+},
+"thing": {
+"pos": [
+"noun"
+],
+"ipa": "/θɪŋ/",
+"ru": [
+"вещь",
+"дело, штука"
+],
+"note": "The thing is... — «Дело в том, что...». th — язык между зубами, не «синг»."
+},
+"yes": {
+"pos": [
+"interjection"
+],
+"ipa": "/jes/",
+"ru": [
+"да"
+]
+},
+"when": {
+"pos": [
+"adverb",
+"conjunction"
+],
+"ipa": "/wen/",
+"ru": [
+"когда"
+],
+"note": "h не читается: «уэн»."
+},
+"really": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈriːəli/",
+"ru": [
+"правда",
+"действительно",
+"очень"
+],
+"note": "Really? с вопросом — «Правда?», «Серьёзно?»."
+},
+"want": {
+"pos": [
+"verb"
+],
+"ipa": "/wɑːnt/",
+"ru": [
+"хотеть"
+],
+"note": "w — губы трубочкой, как в начале «уо». В речи want to → wanna."
+},
+"come": {
+"pos": [
+"verb"
+],
+"ipa": "/kʌm/",
+"ru": [
+"приходить",
+"приезжать"
+],
+"note": "Come on! — одна фраза: «Давай!», «Ну же!»."
+},
+"now": {
+"pos": [
+"adverb"
+],
+"ipa": "/naʊ/",
+"ru": [
+"сейчас",
+"теперь"
+],
+"note": "right now — «прямо сейчас»."
+},
+"some": {
+"pos": [
+"determiner",
+"pronoun"
+],
+"ipa": "/sʌm/",
+"ru": [
+"немного, несколько",
+"какой-то"
+],
+"note": "some water — «немного воды». В вопросах и отрицаниях обычно any."
+},
+"good": {
+"pos": [
+"adjective"
+],
+"ipa": "/ɡʊd/",
+"ru": [
+"хороший"
+],
+"note": "d в конце звонкое: «гуд», а не «гут».",
+"examples": [
+"Good morning.",
+"That's good news."
+]
+},
+"from": {
+"pos": [
+"preposition"
+],
+"ipa": "/frʌm/",
+"ru": [
+"из",
+"от"
+],
+"note": "I'm from Russia — «Я из России». from 9 to 5 — «с 9 до 5»."
+},
+"time": {
+"pos": [
+"noun"
+],
+"ipa": "/taɪm/",
+"ru": [
+"время",
+"раз"
+],
+"note": "What time is it? — «Который час?». three times — «три раза».",
+"examples": [
+"What time is it?",
+"I don't have time."
+]
+},
+"people": {
+"pos": [
+"noun"
+],
+"ipa": "/ˈpiːpəl/",
+"ru": [
+"люди"
+],
+"note": "people — уже множественное число: people are, а не people is."
+},
+"very": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈveri/",
+"ru": [
+"очень"
+],
+"note": "v — верхние зубы на нижнюю губу. Не путай с w: very ≠ worry.",
+"examples": [
+"Thank you very much.",
+"It's really very good."
+]
+},
+"yeah": {
+"pos": [
+"interjection"
+],
+"ipa": "/jeə/",
+"ru": [
+"да, ага"
+],
+"note": "Разговорное yes. В фильмах звучит постоянно."
+},
+"make": {
+"pos": [
+"verb"
+],
+"ipa": "/meɪk/",
+"ru": [
+"делать, создавать",
+"заставлять"
+],
+"note": "make — создавать (make tea, make money), do — выполнять (do homework)."
+},
+"look": {
+"pos": [
+"verb"
+],
+"ipa": "/lʊk/",
+"ru": [
+"смотреть",
+"выглядеть"
+],
+"note": "Смотреть НА что-то — look at: look at me — «посмотри на меня».",
+"examples": [
+"Look at this.",
+"You look tired."
+]
+},
+"two": {
+"pos": [
+"number"
+],
+"ipa": "/tuː/",
+"ru": [
+"два"
+],
+"note": "Звучит так же, как to и too."
+},
+"take": {
+"pos": [
+"verb"
+],
+"ipa": "/teɪk/",
+"ru": [
+"брать",
+"занимать (время)",
+"отвозить"
+],
+"note": "It takes an hour — «Это занимает час». take a photo — «сфотографировать».",
+"examples": [
+"Take it.",
+"I'll take it."
+]
+},
+"here": {
+"pos": [
+"adverb"
+],
+"ipa": "/hɪr/",
+"ru": [
+"здесь",
+"сюда"
+],
+"note": "Here you are — «Вот, держи». Come here — «Иди сюда».",
+"examples": [
+"Come here.",
+"I won't be here."
+]
+},
+"which": {
+"pos": [
+"pronoun",
+"determiner"
+],
+"ipa": "/wɪtʃ/",
+"ru": [
+"который",
+"какой (из)"
+],
+"note": "Which one? — «Который?». h не читается."
+},
+"could": {
+"pos": [
+"verb"
+],
+"ipa": "/kʊd/",
+"ru": [
+"мог бы",
+"мог (в прошлом)"
+],
+"note": "Could you help me? — вежливое «Не могли бы вы помочь?». l не читается."
+},
+"work": {
+"pos": [
+"verb",
+"noun"
+],
+"ipa": "/wɝːk/",
+"ru": [
+"работать",
+"работа"
+],
+"note": "It works! — «Работает!». Не путай с walk /wɑːk/ — «гулять»."
+},
+"more": {
+"pos": [
+"determiner",
+"adverb"
+],
+"ipa": "/mɔːr/",
+"ru": [
+"больше",
+"ещё"
+],
+"note": "one more time — «ещё раз»; more interesting — «интереснее»."
+},
+"who": {
+"pos": [
+"pronoun"
+],
+"ipa": "/huː/",
+"ru": [
+"кто",
+"который (о людях)"
+],
+"note": "w не читается: «ху». Who's that? — «Кто это?».",
+"examples": [
+"Who are you?",
+"Who's that?"
+]
+},
+"other": {
+"pos": [
+"adjective",
+"pronoun"
+],
+"ipa": "/ˈʌðɚ/",
+"ru": [
+"другой"
+],
+"note": "each other — «друг друга». the other day — «на днях»."
+},
+"laugh": {
+"pos": [
+"verb",
+"noun"
+],
+"ipa": "/læf/",
+"ru": [
+"смеяться",
+"смех"
+],
+"note": "gh читается как f: «лаф». laugh at — «смеяться над»."
+},
+"where": {
+"pos": [
+"adverb"
+],
+"ipa": "/wer/",
+"ru": [
+"где",
+"куда"
+],
+"note": "Where are you from? — «Откуда ты?».",
+"examples": [
+"Where are you?",
+"Where's the other one?"
+]
+},
+"use": {
+"pos": [
+"verb",
+"noun"
+],
+"ipa": "/juːz/",
+"ru": [
+"использовать",
+"польза"
+],
+"note": "Глагол — /juːz/, существительное — /juːs/: It's no use — «Бесполезно»."
+},
+"something": {
+"pos": [
+"pronoun"
+],
+"ipa": "/ˈsʌmθɪŋ/",
+"ru": [
+"что-то, что-нибудь"
+],
+"note": "something else — «что-то другое». В вопросах и отрицаниях — anything."
+},
+"how": {
+"pos": [
+"adverb"
+],
+"ipa": "/haʊ/",
+"ru": [
+"как"
+],
+"note": "How are you? — «Как дела?». How much? — «Сколько стоит?»."
+},
+"back": {
+"pos": [
+"adverb",
+"noun"
+],
+"ipa": "/bæk/",
+"ru": [
+"назад, обратно",
+"спина"
+],
+"note": "I'll be back — «Я вернусь». come back — «вернуться»."
+},
+"year": {
+"pos": [
+"noun"
+],
+"ipa": "/jɪr/",
+"ru": [
+"год"
+],
+"note": "I'm 20 years old — «Мне 20 лет». Не путай с ear /ɪr/ — «ухо»."
+},
+"by": {
+"pos": [
+"preposition"
+],
+"ipa": "/baɪ/",
+"ru": [
+"у, около",
+"к (сроку)",
+"кем-то, чем-то"
+],
+"note": "by the window — «у окна»; by Monday — «к понедельнику»; by bus — «на автобусе»."
+},
+"any": {
+"pos": [
+"determiner",
+"pronoun"
+],
+"ipa": "/ˈeni/",
+"ru": [
+"какой-нибудь",
+"любой",
+"нисколько (в отрицании)"
+],
+"note": "Do you have any money? I don't have any — «У меня нисколько нет»."
+},
+"lot": {
+"pos": [
+"noun"
+],
+"ipa": "/lɑːt/",
+"ru": [
+"много (a lot)"
+],
+"note": "a lot of people — «много людей». Thanks a lot — «Большое спасибо»."
+},
+"way": {
+"pos": [
+"noun"
+],
+"ipa": "/weɪ/",
+"ru": [
+"путь, дорога",
+"способ"
+],
+"note": "by the way — «кстати»; No way! — «Да ладно!», «Ни за что!»."
+},
+"put": {
+"pos": [
+"verb"
+],
+"ipa": "/pʊt/",
+"ru": [
+"класть, ставить"
+],
+"note": "Все формы одинаковые: put — put — put. put on — «надеть».",
+"examples": [
+"Put it there.",
+"Put that back."
+]
+},
+"down": {
+"pos": [
+"adverb",
+"preposition"
+],
+"ipa": "/daʊn/",
+"ru": [
+"вниз",
+"внизу"
+],
+"note": "sit down — «садиться»; calm down — «успокоиться»."
+},
+"give": {
+"pos": [
+"verb"
+],
+"ipa": "/ɡɪv/",
+"ru": [
+"давать"
+],
+"note": "Формы: give — gave — given. give up — «сдаваться, бросать».",
+"examples": [
+"Give it to me."
+]
+},
+"sort": {
+"pos": [
+"noun",
+"verb"
+],
+"ipa": "/sɔːrt/",
+"ru": [
+"вид, сорт",
+"сортировать"
+],
+"note": "sort of — «вроде», «как бы», в речи sorta: It's sort of nice.",
+"examples": [
+"I'm sort of busy.",
+"It's sort of strange."
+]
+},
+"three": {
+"pos": [
+"number"
+],
+"ipa": "/θriː/",
+"ru": [
+"три"
+],
+"note": "th — язык между зубами. Не «сри» и не «фри» (free)."
+},
+"much": {
+"pos": [
+"determiner",
+"adverb"
+],
+"ipa": "/mʌtʃ/",
+"ru": [
+"много (о неисчисляемом)",
+"намного"
+],
+"note": "much time, much money; с исчисляемым — many: many people. How much? — «Сколько?»."
+},
+"actually": {
+"pos": [
+"adverb"
+],
+"ipa": "/ˈæktʃuəli/",
+"ru": [
+"на самом деле",
+"вообще-то"
+],
+"note": "Ложный друг: НЕ «актуально»! Actually, I'm busy — «Вообще-то я занят»."
+},
+"need": {
+"pos": [
+"verb",
+"noun"
+],
+"ipa": "/niːd/",
+"ru": [
+"нуждаться",
+"нужно (кому-то)",
+"нужда"
+],
+"note": "I need help — «Мне нужна помощь». I need to go — «Мне нужно идти»."
+},
+"talk": {
+"pos": [
+"verb"
+],
+"ipa": "/tɑːk/",
+"ru": [
+"разговаривать",
+"говорить"
+],
+"note": "l не читается: «ток». talk to someone — «поговорить с кем-то»."
+},
+"kind": {
+"pos": [
+"noun",
+"adjective"
+],
+"ipa": "/kaɪnd/",
+"ru": [
+"вид, тип",
+"добрый"
+],
+"note": "kind of — «вроде», «как бы» (в речи kinda). What kind? — «Какой именно?»."
+},
+"tell": {
+"pos": [
+"verb"
+],
+"ipa": "/tel/",
+"ru": [
+"сказать (кому-то)",
+"рассказывать"
+],
+"note": "tell me — «скажи мне»; say — без «кому»: say hello. Формы: tell — told — told."
+},
+"only": {
+"pos": [
+"adverb",
+"adjective"
+],
+"ipa": "/ˈoʊnli/",
+"ru": [
+"только",
+"единственный"
+],
+"note": "Звучит «оунли», а не «онли»."
+}
+}

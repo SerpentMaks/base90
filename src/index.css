@@ -10,7 +10,7 @@
   --color-accent: #2a63d4;
   --color-accent-ink: #ffffff;
   --color-accent-soft: #e6eefc;
-  --color-good: #1f8a4c;
+  --color-good: #18723e;
   --color-bad: #c2412d;
 
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI", Roboto, "Noto Sans", sans-serif;
@@ -32,6 +32,7 @@
 }
 
 html {
+  color-scheme: light dark;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -52,6 +53,10 @@ body {
 button {
   touch-action: manipulation;
 }
+button:disabled { cursor: default; }
+button, a, input, select, summary { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 3px; }
+a { text-underline-offset: 3px; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

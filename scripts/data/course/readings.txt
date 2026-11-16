@@ -1,0 +1,353 @@
+@story|Первый день Алекса
+Alex is a new student. It is his first day at school.|Алекс — новый студент. У него первый учебный день.
+He does not know the other people, so he comes in early.|Он не знает остальных, поэтому приходит заранее.
+Mia is there too. She has a book, and she looks at Alex.|Мия тоже здесь. У неё книга, и она смотрит на Алекса.
+She says, "Is this your first day too?" Alex says yes.|Она спрашивает: «Это тоже твой первый день?» Алекс отвечает «да».
+They talk for a little while. Then they go in.|Они немного разговаривают. Потом заходят внутрь.
+Alex does not know everything, but he thinks it will be a good day.|Алекс знает не всё, но думает, что день будет хорошим.
+?Кого Алекс встретил?|Мию|Преподавателя|Брата
+?Почему Алекс пришёл рано?|У него первый день|Он работает учителем|Он ищет машину
+@story|Не тот телефон
+Mia cannot find her phone. She looks on the table and under her book.|Мия не может найти телефон. Она смотрит на столе и под книгой.
+There is a phone near the door. It looks like hers, but it is not her phone.|Возле двери лежит телефон. Он похож на её телефон, но это не он.
+Alex comes back from class. He has two phones in his hand.|Алекс возвращается с занятия. У него в руке два телефона.
+He says, "I took yours by mistake. They look the same!"|Он говорит: «Я взял твой по ошибке. Они выглядят одинаково!»
+Mia laughs. She puts her name on her phone so it will not happen again.|Мия смеётся. Она подписывает свой телефон, чтобы это не повторилось.
+They decide to get something to eat before their next class.|Они решают перекусить перед следующим занятием.
+?У кого был телефон Мии?|У Алекса|У преподавателя|У её матери
+?Почему Алекс взял его?|Перепутал похожие телефоны|Хотел его продать|Мия подарила его
+@story|Обед без денег
+Alex and Mia go to a small place near their school for lunch.|Алекс и Мия идут пообедать в небольшое заведение возле вуза.
+Alex wants to pay, but he cannot find his money.|Алекс хочет заплатить, но не может найти деньги.
+He checks his bag twice. His card is not there either.|Он дважды проверяет сумку. Карты там тоже нет.
+Mia says, "Don't worry. I can pay today. You can pay next time."|Мия говорит: «Не волнуйся. Сегодня я могу заплатить. В следующий раз заплатишь ты».
+They sit by the window and talk about a movie they both want to see.|Они садятся у окна и говорят о фильме, который оба хотят посмотреть.
+When Alex gets home, he finds his money on the table. He sends Mia a message to say thank you.|Когда Алекс приходит домой, он находит деньги на столе. Он пишет Мии, чтобы поблагодарить её.
+?Кто заплатил за обед?|Мия|Алекс|Никто
+?Где оказались деньги?|Дома на столе|В школе|В телефоне
+@story|Маленькая программа
+Ben is Alex's friend. He likes to make things on his computer.|Бен — друг Алекса. Ему нравится создавать что-то на компьютере.
+One evening, Alex tells him that he often forgets what time his classes start.|Однажды вечером Алекс говорит ему, что часто забывает время начала занятий.
+Ben has an idea. He wants to make a small program that shows the plan for each day.|У Бена появляется идея. Он хочет сделать небольшую программу с планом на каждый день.
+They work together for an hour. The first version does not work well.|Они работают вместе час. Первая версия работает плохо.
+Alex wants to stop, but Ben says, "Let's try one more time."|Алекс хочет закончить, но Бен говорит: «Давай попробуем ещё раз».
+They find the problem. The program works, and Alex knows when to leave home tomorrow.|Они находят проблему. Программа работает, и Алекс знает, когда завтра выходить из дома.
+?Какую задачу решает программа?|Показывает расписание|Заказывает еду|Показывает фильмы
+?Сразу ли заработала программа?|Нет|Да|Они не пробовали
+@story|Вечер без сети
+Mia invites Alex and Ben to watch a movie at her home.|Мия приглашает Алекса и Бена посмотреть фильм у неё дома.
+They have food and drinks, but there is a problem. The computer cannot go online.|У них есть еда и напитки, но есть проблема. Компьютер не подключается к интернету.
+Ben checks everything. He cannot make it work tonight.|Бен всё проверяет. Сегодня ему не удаётся это исправить.
+Mia puts a small box on the table. There is an old game inside.|Мия ставит на стол небольшую коробку. Внутри старая игра.
+At first, Alex does not understand the rules. Mia shows him how to play.|Сначала Алекс не понимает правила. Мия показывает ему, как играть.
+They laugh and play for two hours. On his way home, Alex thinks it was a good evening after all.|Они смеются и играют два часа. По дороге домой Алекс думает, что вечер всё-таки получился хорошим.
+?Почему они не посмотрели фильм?|Не работал интернет|Не было еды|Алекс ушёл
+?Что они сделали вместо этого?|Сыграли в игру|Пошли в магазин|Легли спать
+@story|История в библиотеке
+Alex needs a quiet place to study. His room at home is too noisy today.|Алексу нужно тихое место для учёбы. Сегодня дома в его комнате слишком шумно.
+He goes to the library and finds a small table by the window.|Он идёт в библиотеку и находит небольшой стол у окна.
+An old book is on the table. There is a letter inside it.|На столе лежит старая книга. Внутри неё письмо.
+The letter says, "If you find this, please give it to the woman at the front desk."|В письме сказано: «Если найдёшь это, пожалуйста, передай женщине за стойкой».
+Alex gives her the letter. She smiles and says it is from a student who studied there many years ago.|Алекс отдаёт ей письмо. Она улыбается и говорит, что оно от студента, который учился здесь много лет назад.
+For a moment, the old library feels like part of a much bigger story.|На мгновение старая библиотека кажется частью гораздо большей истории.
+?Где Алекс нашёл письмо?|В книге|В сумке|На улице
+?Кому он отдал письмо?|Женщине за стойкой|Бену|Мии
+@story|Дорога домой
+Alex leaves school late. His usual bus is not at the stop.|Алекс поздно выходит из вуза. Его обычного автобуса нет на остановке.
+He looks at his phone, but the screen is black. The phone is dead.|Он смотрит на телефон, но экран чёрный. Телефон разрядился.
+A woman tells him that another bus goes near his home.|Женщина говорит ему, что другой автобус идёт рядом с его домом.
+Alex takes that bus and sits next to the window.|Алекс садится в тот автобус и занимает место у окна.
+He sees a part of the city he does not know. There is a beautiful park there.|Он видит незнакомую часть города. Там красивый парк.
+When he gets home, he writes the name of the park down. He wants to go back with his friends.|Добравшись домой, он записывает название парка. Он хочет вернуться туда с друзьями.
+?Почему Алекс не воспользовался телефоном?|Телефон разрядился|Он забыл телефон|Телефон был у Мии
+?Что он заметил по дороге?|Красивый парк|Новый вуз|Машину Бена
+@story|План на выходные
+Ben wants to stay home all weekend and play games.|Бен хочет все выходные сидеть дома и играть.
+Mia calls him on Saturday morning. She and Alex are going to the park.|В субботу утром ему звонит Мия. Они с Алексом собираются в парк.
+At first Ben says no. He has almost finished a difficult part of his game.|Сначала Бен отказывается. Он почти прошёл сложную часть игры.
+Then he looks outside. It is a warm day, and he has not been out for hours.|Потом он смотрит на улицу. День тёплый, а он уже несколько часов не выходил.
+He tells Mia to wait ten minutes. He turns off the computer and gets his bag.|Он просит Мию подождать десять минут. Он выключает компьютер и берёт сумку.
+The game will still be there tomorrow. Today he wants to spend time with his friends.|Завтра игра никуда не денется. Сегодня он хочет провести время с друзьями.
+?Куда идут друзья?|В парк|На работу|В кино
+?Что Бен решил сделать?|Выключить компьютер и пойти с ними|Играть до вечера|Купить новую игру
+@story|Дождь в парке
+The three friends meet at the park. It is warm, but the sky is getting dark.|Трое друзей встречаются в парке. Тепло, но небо темнеет.
+Mia wants to take a picture of Alex and Ben by the water.|Мия хочет сфотографировать Алекса и Бена у воды.
+Just as they stand together, it starts to rain. They run to a small shop.|Как только они встают рядом, начинается дождь. Они бегут в маленький магазин.
+The man inside lets them wait there. Ben buys three hot drinks.|Мужчина внутри разрешает им переждать. Бен покупает три горячих напитка.
+They look at the picture on Mia's phone. Everyone looks surprised.|Они смотрят на снимок в телефоне Мии. У всех удивлённые лица.
+It is not the picture she planned, but it makes all three of them laugh.|Снимок получился не таким, как она планировала, но все трое смеются.
+?Где друзья переждали дождь?|В магазине|В автобусе|Дома
+?Каким оказался снимок?|Смешным|Слишком тёмным|Его не было
+@story|Первое собеседование
+Ben has an interview for a small job at a computer store.|У Бена собеседование на небольшую работу в компьютерном магазине.
+He knows a lot about computers, but he is worried about speaking to new people.|Он много знает о компьютерах, но волнуется перед разговором с незнакомыми людьми.
+Alex asks him some questions so he can practice at home.|Алекс задаёт ему вопросы, чтобы он мог потренироваться дома.
+The next morning Ben arrives early. The manager asks why he wants the job.|На следующее утро Бен приходит заранее. Менеджер спрашивает, почему он хочет эту работу.
+Ben says he enjoys helping people understand how things work.|Бен говорит, что ему нравится помогать людям понимать, как всё работает.
+He does not know every answer, but he listens carefully and asks questions. He leaves feeling better than when he arrived.|Он знает не все ответы, но внимательно слушает и задаёт вопросы. Он уходит с лучшим настроением, чем пришёл.
+?Где Бен хочет работать?|В компьютерном магазине|В библиотеке|В школе
+?Как Алекс ему помог?|Провёл тренировочное собеседование|Написал ответы менеджеру|Купил компьютер
+@story|Один маленький заказ
+Mia likes to draw. One day a friend asks her to make a picture for a party.|Мия любит рисовать. Однажды знакомый просит её сделать картинку для вечеринки.
+She says yes before asking how much time she has. The party is tomorrow.|Она соглашается, не спросив, сколько у неё времени. Вечеринка завтра.
+Mia works all evening. She tries three ideas, but none looks right to her.|Мия работает весь вечер. Она пробует три идеи, но ни одна её не устраивает.
+Alex looks at the first picture and says it is clear and easy to understand.|Алекс смотрит на первую картинку и говорит, что она ясная и понятная.
+Mia sends it to her friend. He loves it and thanks her right away.|Мия отправляет её знакомому. Ему очень нравится, и он сразу благодарит её.
+Next time she will ask about the date first. Tonight she can finally get some sleep.|В следующий раз она сначала спросит о дате. А сегодня наконец можно поспать.
+?Когда вечеринка?|Завтра|Через месяц|Сегодня утром
+?Какую картинку отправила Мия?|Первую|Все три|Никакую
+@story|Разговор по-английски
+Alex hears two people speaking English near his school. One of them is looking at a map.|Возле вуза Алекс слышит, как двое говорят по-английски. Один смотрит на карту.
+The man asks Alex where the station is. Alex knows the way.|Мужчина спрашивает Алекса, где вокзал. Алекс знает дорогу.
+He wants to answer, but at first no English words come to him.|Он хочет ответить, но сначала не может вспомнить английские слова.
+Then he remembers a short phrase from his practice: "Go straight and turn left."|Потом он вспоминает короткую фразу из занятий: «Идите прямо и поверните налево».
+He speaks slowly and shows the way with his hand. The man understands and thanks him.|Он медленно говорит и показывает направление рукой. Мужчина понимает и благодарит его.
+Alex did not say much, but it was enough. On his way home he practices the phrase again.|Алекс сказал немного, но этого хватило. По дороге домой он ещё раз повторяет фразу.
+?О чём спросили Алекса?|Как пройти к вокзалу|Который час|Где купить телефон
+?Помогла ли короткая фраза?|Да|Нет|Он ничего не сказал
+@story|Ужин втроём
+The friends decide to cook dinner at Ben's home instead of eating out.|Друзья решают приготовить ужин у Бена вместо похода в кафе.
+Mia brings food, Alex brings drinks, and Ben says he will do the cooking.|Мия приносит еду, Алекс — напитки, а Бен обещает готовить.
+When they arrive, Ben is reading something on his phone. He has never made this dish before.|Когда они приходят, Бен читает что-то в телефоне. Он никогда раньше не готовил это блюдо.
+They help him, but the first try does not go well. The food is too hot to eat.|Они помогают ему, но первая попытка выходит неудачной. Еда слишком горячая.
+They wait, set the table, and talk about their week. After a while the food tastes good.|Они ждут, накрывают на стол и говорят о неделе. Через некоторое время еда оказывается вкусной.
+Ben says the best part was making it together. Mia agrees, but asks him to read the instructions earlier next time.|Бен говорит, что лучше всего было готовить вместе. Мия согласна, но просит в следующий раз заранее читать инструкцию.
+?Готовил ли Бен это блюдо раньше?|Нет|Каждую неделю|Один раз
+?Почему они не начали есть сразу?|Еда была горячей|Они ждали доставку|Не было стола
+@story|Список на бумаге
+Alex has too many things to do. He has a class, a meeting, and work to finish.|У Алекса слишком много дел. У него занятие, встреча и работа, которую нужно закончить.
+He keeps thinking about all of them at the same time. He cannot start any of them.|Он думает обо всём одновременно. Ни за что не получается взяться.
+Mia gives him a piece of paper. She tells him to write down just three things.|Мия даёт ему лист бумаги. Она просит записать только три дела.
+Alex writes the most important job first. Then he puts his phone away and works for twenty minutes.|Алекс первым записывает самое важное дело. Потом убирает телефон и работает двадцать минут.
+When he finishes, he puts a line through that item. The list is already smaller.|Закончив, он вычёркивает этот пункт. Список уже стал короче.
+He still has work to do, but now he knows what comes next. That makes the afternoon feel easier.|У него ещё остались дела, но теперь он знает следующий шаг. От этого день кажется легче.
+?Что дала Мия Алексу?|Лист бумаги|Телефон|Новую работу
+?Сколько дел она предложила записать?|Три|Двадцать|Все дела на год
+@story|Новый покупатель
+It is Ben's first day at the computer store. A woman brings in an old computer.|У Бена первый день в компьютерном магазине. Женщина приносит старый компьютер.
+She says it is too slow and asks if she must buy a new one.|Она говорит, что он слишком медленный, и спрашивает, нужно ли покупать новый.
+Ben asks what she uses it for. She only writes letters and looks at family pictures.|Бен спрашивает, для чего она его использует. Она только пишет письма и смотрит семейные фотографии.
+He checks the computer and finds a small problem that he can fix.|Он проверяет компьютер и находит небольшую проблему, которую может исправить.
+The woman is happy that she does not need to spend a lot of money.|Женщина рада, что ей не придётся тратить много денег.
+Ben's manager tells him he did well. Listening to the customer was more useful than trying to sell something immediately.|Менеджер говорит Бену, что тот хорошо справился. Выслушать покупателя было полезнее, чем сразу пытаться что-то продать.
+?Зачем женщина использует компьютер?|Для писем и фотографий|Для сложных игр|Для создания фильмов
+?Что сделал Бен?|Исправил небольшую проблему|Продал новый компьютер|Отправил женщину домой
+@story|Забытый день рождения
+Alex opens a message from Mia. It says, "Are you coming tonight?"|Алекс открывает сообщение от Мии. Там написано: «Ты сегодня придёшь?»
+He has no idea what she means. Then he looks at the date.|Он не понимает, что она имеет в виду. Потом он смотрит на дату.
+It is Ben's birthday. Alex completely forgot, and he has not bought a gift.|У Бена день рождения. Алекс совсем забыл и не купил подарок.
+He cannot get to a store in time, so he decides to write Ben a letter.|Он не успеет в магазин и решает написать Бену письмо.
+He writes about the time Ben helped him with his first computer program.|Он пишет о том, как Бен помог ему с первой компьютерной программой.
+At the party, Ben reads the letter twice and smiles. He says it is one of his favorite gifts.|На вечеринке Бен дважды читает письмо и улыбается. Он говорит, что это один из его любимых подарков.
+?Что забыл Алекс?|День рождения Бена|Номер телефона Мии|Время занятий
+?Что он подарил?|Письмо|Компьютер|Книгу
+@story|Тихое утро
+Mia gets up early on Sunday. For once, she has no work to finish and nowhere to go.|В воскресенье Мия рано встаёт. На этот раз у неё нет незаконченной работы и никуда не нужно идти.
+She makes tea and sits by the window with a book.|Она готовит чай и садится с книгой у окна.
+Her phone makes a sound. She looks at it, then puts it in another room.|Телефон издаёт звук. Она смотрит на него и относит в другую комнату.
+At first she wants to check her messages. After a few minutes, she forgets about them.|Сначала ей хочется проверить сообщения. Через несколько минут она о них забывает.
+She reads slowly and watches people walk past outside. The morning feels longer than usual.|Она медленно читает и наблюдает за прохожими. Утро кажется длиннее обычного.
+Later she calls her friends. She has not done anything big, but she feels ready for the week.|Позже она звонит друзьям. Она не сделала ничего значительного, но чувствует себя готовой к новой неделе.
+?Куда Мия убрала телефон?|В другую комнату|В сумку Бена|На улицу
+?Как она провела утро?|Читала и пила чай|Работала в магазине|Готовилась к собеседованию
+@story|Поезд в другой город
+The friends are taking a train to another city for the day. Alex has the tickets on his phone.|Друзья едут на день в другой город на поезде. Билеты в телефоне Алекса.
+They arrive at the station with ten minutes to spare. Ben wants to buy a drink.|Они приходят на вокзал за десять минут до отправления. Бен хочет купить напиток.
+Mia says they should find the train first. Ben says it will only take a minute.|Мия говорит, что сначала стоит найти поезд. Бен отвечает, что это займёт всего минуту.
+The line at the shop is long. Ben looks at the time and changes his mind.|В магазине длинная очередь. Бен смотрит на время и передумывает.
+They get on the train together just before the doors close. Mia has water in her bag.|Они вместе садятся в поезд прямо перед закрытием дверей. У Мии в сумке вода.
+She shares it with Ben. He says next time he will buy his drink before coming to the station.|Она делится с Беном. Он говорит, что в следующий раз купит напиток до прихода на вокзал.
+?Что друзья решили найти сначала?|Поезд|Магазин|Отель
+?У кого была вода?|У Мии|У Алекса|У продавца
+@story|Неизвестная улица
+In the new city, Mia wants to see a famous building. Ben wants to find somewhere to eat.|В новом городе Мия хочет увидеть известное здание. Бен хочет найти, где поесть.
+Alex looks at the map and says both places are in the same direction.|Алекс смотрит на карту и говорит, что оба места в одном направлении.
+They walk for twenty minutes, but nothing looks like the pictures on the phone.|Они идут двадцать минут, но ничто не похоже на фотографии в телефоне.
+Then Alex sees the problem. He has been looking at the wrong part of the map.|Тогда Алекс замечает проблему. Он смотрел не на ту часть карты.
+They ask a man outside a small store for help. He shows them a shorter way.|Они просят помощи у мужчины возле небольшого магазина. Он показывает более короткий путь.
+On that street they find a good place for lunch. Getting lost was not part of the plan, but the food is worth it.|На той улице они находят хорошее место для обеда. Заблудиться они не планировали, но еда того стоит.
+?В чём ошибся Алекс?|Смотрел не ту часть карты|Купил не те билеты|Перепутал город
+?Кто им помог?|Мужчина у магазина|Преподаватель|Водитель поезда
+@story|Цена ошибки
+Ben gives a customer the wrong price for a computer. He only notices after the customer has left.|Бен называет покупателю неправильную цену компьютера. Он замечает это только после ухода покупателя.
+For a moment he hopes no one will find out. Then he tells his manager exactly what happened.|На мгновение он надеется, что никто не узнает. Потом он точно рассказывает менеджеру о случившемся.
+They call the customer together and explain the mistake. The price is actually lower than Ben said.|Они вместе звонят покупателю и объясняют ошибку. Цена на самом деле ниже названной Беном.
+The customer thanks them and comes back the next day. Ben writes the correct prices on a small card.|Покупатель благодарит их и возвращается на следующий день. Бен записывает правильные цены на карточке.
+?Какую ошибку сделал Бен?|Назвал не ту цену|Продал чужой телефон|Забыл прийти на работу
+?Что он сделал после ошибки?|Рассказал менеджеру|Ничего|Ушёл домой
+@story|Первое выступление
+Mia must speak in front of her class about a project. She has prepared pictures, but she is still worried.|Мия должна рассказать группе о проекте. Она подготовила картинки, но всё ещё волнуется.
+Before class, Alex asks her to explain the project to him. She speaks clearly because he is her friend.|Перед занятием Алекс просит объяснить проект ему. С другом она говорит ясно.
+When she stands up in class, she looks at Alex first. Then she looks at the other students.|Когда она встаёт перед группой, сначала смотрит на Алекса. Потом — на остальных студентов.
+She forgets one word, stops for a moment, and continues. No one seems to mind. They ask her good questions afterwards.|Она забывает одно слово, ненадолго останавливается и продолжает. Кажется, никого это не беспокоит. После ей задают хорошие вопросы.
+?Кто помог Мии подготовиться?|Алекс|Покупатель|Её сестра
+?Что произошло, когда она забыла слово?|Она продолжила после паузы|Она ушла|Выступление отменили
+@story|Книга для друга
+Alex wants to buy a book for Mia. He knows she likes stories, but he does not know which ones she already has.|Алекс хочет купить Мии книгу. Он знает, что она любит истории, но не знает, какие книги у неё уже есть.
+At the store he finds a book with a beautiful picture on the front. He almost buys it immediately.|В магазине он находит книгу с красивой картинкой на обложке. Он уже собирается её купить.
+Then he reads the first page. It is about a subject Mia does not enjoy at all.|Потом он читает первую страницу. Книга о теме, которая Мии совсем не нравится.
+He asks a worker for help and describes the stories Mia likes. Together they find a better choice. The picture is simpler, but the story is just right.|Он просит работника помочь и описывает любимые истории Мии. Вместе они находят вариант лучше. Картинка проще, зато история подходит.
+?Что Алекс сначала оценил в книге?|Обложку|Последнюю страницу|Цену доставки
+?Как он нашёл подходящую книгу?|Описал интересы Мии работнику|Купил первую попавшуюся|Позвонил преподавателю
+@story|Пять минут вместо нуля
+Alex comes home late and feels too tired to study English. His plan says forty minutes today.|Алекс поздно возвращается домой и слишком устал для английского. По плану сегодня сорок минут.
+He looks at the number and wants to close the app. Then he decides to do just five minutes.|Он смотрит на число и хочет закрыть приложение. Потом решает позаниматься всего пять минут.
+He listens to some familiar words and gets most of them right. One word is difficult, so he tries it again.|Он слушает знакомые слова и правильно отвечает на большинство. Одно слово трудное, и он пробует ещё раз.
+After ten minutes he stops and goes to bed. He has not finished the whole plan, but he has kept learning. Tomorrow he can continue.|Через десять минут он заканчивает и ложится спать. Весь план не выполнен, но он продолжил учиться. Завтра можно вернуться.
+?Какой был план на день?|Сорок минут|Пять минут|Два часа
+?Сколько Алекс в итоге занимался?|Десять минут|Нисколько|Девяносто минут
+@story|Чужая сумка
+Mia gets off the bus with a bag that feels heavier than usual. She opens it and sees books she does not know.|Мия выходит из автобуса с сумкой, которая тяжелее обычного. Открыв её, она видит незнакомые книги.
+Her own bag looks almost the same. She has taken someone else's bag from the seat.|Её сумка выглядит почти так же. Она взяла с сиденья чужую.
+There is a name and a phone number inside. Mia calls the number and explains what happened.|Внутри есть имя и номер телефона. Мия звонит и объясняет, что случилось.
+The other student has her bag. They agree to meet at the next bus stop. Both are happy to get their own things back.|Её сумка у другого студента. Они договариваются встретиться на следующей остановке. Оба рады вернуть свои вещи.
+?Почему сумка казалась тяжелее?|Она была чужой|Мия купила книги|В ней был компьютер Бена
+?Как нашли владельца?|По номеру внутри|Через объявление в газете|Его знал Алекс
+@story|Работа в команде
+The three friends have a project to finish by Friday. At first, each of them wants to do the same part.|Троим друзьям нужно закончить проект к пятнице. Сначала каждый хочет заниматься одной и той же частью.
+They spend an hour discussing it and do not finish anything. Mia suggests making a clear plan.|Они час обсуждают это и ничего не заканчивают. Мия предлагает составить ясный план.
+Ben will work on the computer program. Mia will make the pictures, and Alex will write the explanation.|Бен займётся программой. Мия сделает картинки, а Алекс напишет объяснение.
+They agree to check each other's work on Thursday. By the end of the day, everyone has started. The project suddenly feels possible.|Они договариваются проверить работу друг друга в четверг. К концу дня все приступили. Проект вдруг кажется выполнимым.
+?Что мешало сначала?|Не разделили задачи|Не было компьютера|Никто не пришёл
+?Кто пишет объяснение?|Алекс|Мия|Бен
+@story|Слишком много сообщений
+Ben is trying to study, but his phone keeps making sounds. Every message feels important.|Бен пытается учиться, но телефон постоянно издаёт звуки. Каждое сообщение кажется важным.
+He reads one message and answers it. Then he sees a video and watches that too.|Он читает сообщение и отвечает. Затем замечает видео и смотрит его тоже.
+An hour passes. He has only read one page of his book. He is surprised by how little he has done.|Проходит час. Он прочитал всего одну страницу. Он удивлён, как мало успел.
+Ben turns the sound off and puts the phone away. He studies for twenty minutes, then takes a break to check messages. This time he gets through the whole chapter.|Бен выключает звук и убирает телефон. Он учится двадцать минут, потом проверяет сообщения в перерыве. На этот раз он проходит всю главу.
+?Что отвлекало Бена?|Телефон|Друзья за столом|Шум поезда
+?Когда он решил проверять сообщения?|В перерыве|После каждого предложения|Во время объяснения преподавателя
+@story|Покупка с условием
+Alex finds a used computer online. The price is good, and the pictures look nice.|Алекс находит подержанный компьютер в интернете. Цена хорошая, фотографии красивые.
+He wants to pay immediately, but Ben says he should check it first. They go to see it together.|Он хочет сразу заплатить, но Бен советует сначала проверить. Они вместе идут посмотреть компьютер.
+The computer works, but it becomes very hot after a few minutes. The person selling it says this is normal.|Компьютер работает, но через несколько минут сильно нагревается. Продавец говорит, что это нормально.
+Ben asks more questions. Alex decides not to buy it. He is disappointed, but he still has his money. A low price is only useful if the thing works well.|Бен задаёт ещё вопросы. Алекс решает не покупать. Он расстроен, но деньги остались у него. Низкая цена полезна только тогда, когда вещь хорошо работает.
+?Что насторожило друзей?|Компьютер сильно нагревался|У него был большой экран|Цена была слишком высокой
+?Купил ли Алекс компьютер?|Нет|Да|Мия купила вместо него
+@story|Встреча у другого входа
+Mia tells Alex to meet her in front of the school at six. Alex arrives five minutes early.|Мия просит Алекса встретиться перед вузом в шесть. Алекс приходит на пять минут раньше.
+At six, Mia is not there. He waits ten minutes and sends her a message.|В шесть Мии нет. Он ждёт десять минут и пишет ей.
+She answers that she has been waiting too. Alex looks around but cannot see her.|Она отвечает, что тоже давно ждёт. Алекс оглядывается, но не видит её.
+The school has two doors on different streets. They are at different entrances. They laugh when they finally meet and agree to be more specific next time.|У вуза две двери на разных улицах. Они у разных входов. Встретившись, они смеются и договариваются в следующий раз быть точнее.
+?Почему друзья не видели друг друга?|Ждали у разных входов|Мия была дома|Алекс опоздал на час
+?Как они связались?|Сообщениями|Письмами|Через преподавателя
+@story|Старый фильм
+Ben chooses an old movie for their next evening together. Alex thinks it will be boring.|Бен выбирает старый фильм для следующего вечера. Алекс думает, что будет скучно.
+There are no big special effects, and the first scene is very quiet. Mia asks Alex to give it a chance.|Нет больших спецэффектов, первая сцена очень тихая. Мия просит Алекса дать фильму шанс.
+After twenty minutes, Alex wants to know what happens to the main character. He stops looking at his phone.|Через двадцать минут Алекс хочет узнать, что будет с главным героем. Он перестаёт смотреть в телефон.
+When the movie ends, they talk about the final scene for a long time. Alex admits he was wrong. An old story can still feel new when you see it for the first time.|После фильма они долго обсуждают финальную сцену. Алекс признаёт свою ошибку. Старая история может казаться новой, когда видишь её впервые.
+?Что сначала думал Алекс?|Будет скучно|Это его любимый фильм|Он уже его смотрел
+?Что изменилось?|Он заинтересовался героем|Он ушёл спать|Фильм отменили
+@story|Вопрос преподавателю
+Alex does not understand part of the lesson. Everyone else seems to be writing, so he stays quiet.|Алекс не понимает часть урока. Кажется, все остальные записывают, и он молчит.
+He tries to follow the next example, but it makes even less sense. He finally raises his hand.|Он пытается понять следующий пример, но тот ещё менее понятен. Наконец он поднимает руку.
+The teacher explains the idea another way. Alex understands, and two other students thank him for asking.|Преподаватель объясняет иначе. Алекс понимает, а два других студента благодарят его за вопрос.
+They did not understand either. On the way out, Alex realizes that looking confused for a minute is better than staying confused all day.|Они тоже не понимали. Уходя, Алекс осознаёт, что лучше минуту выглядеть растерянным, чем целый день ничего не понимать.
+?Что помогло Алексу понять тему?|Он задал вопрос|Он закрыл книгу|Он пропустил занятие
+?Был ли он единственным, кто не понял?|Нет|Да|На занятии никого не было
+@story|Подработка Мии
+Mia gets a small job making pictures for a local store. The owner asks for five different versions.|Мия получает небольшую работу: картинки для местного магазина. Владелец просит пять вариантов.
+She spends two evenings working, but he keeps asking for changes without explaining what he wants.|Она работает два вечера, но он постоянно просит изменения, не объясняя, чего хочет.
+Mia calls him instead of sending another picture. She asks three clear questions about the purpose of the design.|Вместо очередной картинки Мия звонит. Она задаёт три точных вопроса о назначении дизайна.
+After their conversation, she knows what to do. The next version is accepted immediately. She learns that a short conversation can save hours of work.|После разговора она понимает задачу. Следующий вариант принимают сразу. Она узнаёт, что короткий разговор может сэкономить часы работы.
+?Что затрудняло работу?|Неясные требования|Отсутствие красок|Слишком большой магазин
+?Что помогло?|Разговор с точными вопросами|Ещё пять случайных вариантов|Отказ от работы
+@story|Потерянная фотография
+Ben wants to show his friends a picture from their first day at school. He cannot find it anywhere.|Бен хочет показать друзьям фотографию с первого дня учёбы. Он нигде не может её найти.
+He searches his phone and his computer. There are thousands of pictures, but not that one.|Он ищет в телефоне и компьютере. Там тысячи снимков, но нужного нет.
+Mia remembers that Ben sent it to their group months ago. She searches the old messages and finds it.|Мия помнит, что Бен отправлял её в их группу несколько месяцев назад. Она находит её в старых сообщениях.
+Everyone looks much more serious in the picture. They laugh and save a copy. Ben decides to organize his pictures before he loses something important again.|На фотографии все гораздо серьёзнее. Они смеются и сохраняют копию. Бен решает упорядочить снимки, прежде чем снова потеряет что-то важное.
+?Где нашли фотографию?|В старых сообщениях|В газете|В книге
+?Что Бен решил сделать?|Упорядочить фотографии|Удалить все файлы|Купить новый телефон
+@story|Неожиданная помощь
+Alex sees a new student standing alone outside the classroom. She looks at the room number and then at her phone.|Алекс видит новую студентку одну у аудитории. Она смотрит на номер, потом в телефон.
+He remembers his own first day. Instead of walking past, he asks if she needs help.|Он вспоминает свой первый день. Вместо того чтобы пройти мимо, он спрашивает, нужна ли помощь.
+She is looking for a class that has moved to another floor. Alex knows the new room and shows her the way.|Она ищет занятие, которое перенесли на другой этаж. Алекс знает новую аудиторию и провожает её.
+When he returns, he is a few minutes late for his own class. The teacher listens to his explanation and smiles. Alex is glad he stopped to ask.|Вернувшись, он опаздывает на своё занятие на несколько минут. Преподаватель выслушивает объяснение и улыбается. Алекс рад, что остановился помочь.
+?Почему студентка не могла найти занятие?|Его перенесли на другой этаж|Она перепутала день|Занятие отменили
+?Что сделал Алекс?|Показал дорогу|Прошёл мимо|Позвонил Бену
+@story|День без покупок
+The friends walk through the city on Saturday. Every store seems to have a sale.|В субботу друзья гуляют по городу. Кажется, в каждом магазине распродажа.
+Alex sees a jacket he likes. He already has a good one, but the new one costs much less than usual.|Алекс видит понравившуюся куртку. У него уже есть хорошая, но новая стоит намного дешевле обычного.
+Mia asks if he would buy it at the full price. Alex thinks for a moment and says no.|Мия спрашивает, купил бы он её за полную цену. Алекс думает и отвечает, что нет.
+They leave the store and buy some food to share in the park instead. Alex goes home with less stuff and enough money for the trip he has been planning.|Они выходят и покупают еду, чтобы поесть вместе в парке. Алекс возвращается домой с меньшим количеством вещей и деньгами на запланированную поездку.
+?Почему куртка привлекла Алекса?|На неё была скидка|У него не было одежды|Мия попросила её купить
+?На что он сохранил деньги?|На поездку|На новый телефон|На машину
+@story|Звук из компьютера
+Ben hears a new sound from his computer while he is working. He hopes it will go away by itself.|Во время работы Бен слышит странный звук из компьютера. Он надеется, что звук исчезнет сам.
+The sound gets worse. Ben saves his work and turns the computer off before opening it.|Звук усиливается. Бен сохраняет работу и выключает компьютер, прежде чем открыть его.
+He finds that something inside needs cleaning. He has seen this problem at the store before.|Он обнаруживает, что внутри нужно почистить одну деталь. Он уже сталкивался с этим в магазине.
+After he cleans it with care, the computer works without the sound again. Ben is pleased that he stopped early. Waiting until it broke might have cost much more time and money.|После осторожной чистки компьютер снова работает тихо. Бен рад, что вовремя остановился. Если бы он дождался поломки, мог бы потерять больше времени и денег.
+?Что Бен сделал перед выключением?|Сохранил работу|Удалил программу|Позвонил покупателю
+?Что было нужно компьютеру?|Чистка|Новый экран|Новая игра
+@story|Новый маршрут
+Mia always walks to school the same way. One morning, the street she uses is closed.|Мия всегда ходит на учёбу одной дорогой. Однажды утром её обычная улица закрыта.
+She follows a different road and finds a small garden behind a public building.|Она идёт другой дорогой и находит маленький сад за общественным зданием.
+There are only a few people there. An old man is reading, and a woman is playing with her child.|Людей мало. Пожилой мужчина читает, женщина играет с ребёнком.
+The new way takes five minutes longer, but Mia likes it more. The next day she leaves home a little earlier so she can walk through the garden again.|Новый путь на пять минут длиннее, но нравится Мии больше. На следующий день она выходит раньше, чтобы снова пройти через сад.
+?Почему Мия изменила путь?|Улица была закрыта|Она переехала|Она забыла дорогу
+?Что она решила на следующий день?|Выйти раньше и пройти через сад|Поехать на такси|Не идти на занятия
+@story|Обещание на завтра
+Alex promises to help Ben move a heavy table on Sunday. On Saturday, another friend invites him to a game.|Алекс обещает помочь Бену передвинуть тяжёлый стол в воскресенье. В субботу другой друг зовёт его на игру.
+The game is at the same time. Alex wants to go, but Ben has already planned his whole morning around the move.|Игра в то же время. Алекс хочет пойти, но Бен уже распланировал утро вокруг перестановки.
+Alex tells the other friend he will come later if he can. He keeps his promise and goes to Ben's home first.|Алекс говорит другу, что придёт позже, если сможет. Он выполняет обещание и сначала идёт к Бену.
+Moving the table only takes half an hour. Ben thanks him and offers him a ride to the game. Alex gets to do both things after all.|Передвинуть стол занимает всего полчаса. Бен благодарит его и предлагает подвезти на игру. В итоге Алекс успевает и то и другое.
+?Что Алекс обещал Бену?|Помочь передвинуть стол|Купить билет|Написать программу
+?Успел ли Алекс на игру?|Да|Нет|Он передумал играть
+@story|Маленький успех Мии
+Mia has been practicing English every evening. She still feels that she knows very little.|Мия занимается английским каждый вечер. Ей всё ещё кажется, что она знает очень мало.
+One night she watches a short scene without looking at the text. She understands one whole conversation.|Однажды она смотрит короткую сцену, не глядя на текст. Она понимает целый разговор.
+She plays it again to make sure. The people are speaking quickly, but their words now sound familiar.|Она включает её снова для проверки. Люди говорят быстро, но слова теперь звучат знакомо.
+Mia sends Alex the scene and tells him what happened. She still has a lot to learn, but now she can hear the difference that her work is making.|Мия отправляет сцену Алексу и рассказывает о случившемся. Учиться ещё многому, но теперь она слышит результат своих занятий.
+?Что удалось Мии?|Понять разговор без текста|Выучить все слова|Снять свой фильм
+?Что помогло этому успеху?|Регулярная практика|Новый телефон|Переводчик на экране
+@story|Вопрос о будущем
+The friends sit in the park and talk about what they want to do after school. Ben wants to work with software.|Друзья сидят в парке и обсуждают будущее после учёбы. Бен хочет работать с программами.
+Mia wants a job where she can create things. Alex is not sure yet, and that worries him.|Мия хочет работу, где можно создавать. Алекс пока не уверен, и это его беспокоит.
+Ben says he did not always know either. He only found out by trying different small projects.|Бен говорит, что тоже не всегда знал. Он понял это, пробуя разные небольшие проекты.
+Alex decides to try one new activity each month. He does not need a perfect plan today. He needs a way to find out what he enjoys doing.|Алекс решает каждый месяц пробовать новое занятие. Идеальный план сегодня не нужен. Нужен способ узнать, что ему нравится.
+?Кто пока не выбрал направление?|Алекс|Бен|Мия
+?Что он решил делать?|Пробовать новые занятия|Сразу бросить учёбу|Не думать об этом никогда
+@story|Сломанный план
+The team is ready to show its project. Ten minutes before the class, the program stops working.|Команда готова показать проект. За десять минут до занятия программа перестаёт работать.
+Ben starts changing things quickly. Alex asks him to stop and explain the last change he made.|Бен начинает быстро всё менять. Алекс просит остановиться и объяснить последнее изменение.
+They look at that part together and find a small mistake. Mia checks the rest of the presentation while they fix it.|Они вместе смотрят эту часть и находят небольшую ошибку. Пока они исправляют её, Мия проверяет остальную презентацию.
+The project works again with two minutes to spare. They are not completely calm, but they are ready. This time, slowing down helped them finish faster.|Программа снова работает за две минуты до начала. Они не совсем спокойны, но готовы. На этот раз замедлиться помогло закончить быстрее.
+?Что помогло найти ошибку?|Проверили последнее изменение|Переписали всё с нуля|Выключили свет
+?Что делала Мия?|Проверяла презентацию|Ушла домой|Покупала новый компьютер
+@story|Вечер вопросов
+Mia invites her younger brother to spend an evening with her friends. He asks questions about everything.|Мия приглашает младшего брата провести вечер с её друзьями. Он обо всём задаёт вопросы.
+Ben explains how a computer stores pictures. Alex shows him a simple game. Mia teaches him to draw a face.|Бен объясняет, как компьютер хранит картинки. Алекс показывает простую игру. Мия учит рисовать лицо.
+Some questions are harder than they expect. When they do not know an answer, they look for it together.|Некоторые вопросы сложнее, чем ожидалось. Когда они не знают ответа, они ищут его вместе.
+By the end of the evening, everyone has learned something new. Alex realizes that explaining an idea is a good way to find out how well he understands it himself.|К концу вечера все узнают что-то новое. Алекс понимает: объяснение идеи помогает проверить, насколько хорошо он сам её понимает.
+?Кто задавал много вопросов?|Брат Мии|Менеджер Бена|Преподаватель
+?Что друзья делали с трудными вопросами?|Искали ответ вместе|Игнорировали их|Сердились
+@story|Билет на один день
+Alex finds a cheap ticket to a city he has never visited. He asks Mia and Ben to come with him.|Алекс находит дешёвый билет в незнакомый город. Он зовёт Мию и Бена с собой.
+Ben can only take one day off work. Mia has a class the next morning, so they must return at night.|Бен может взять только один выходной. У Мии утром занятие, поэтому вернуться нужно ночью.
+They make a short list of places instead of trying to see everything. They choose one museum and a walk by the river.|Они составляют короткий список вместо попытки увидеть всё. Выбирают один музей и прогулку у реки.
+The day feels full without being rushed. On the train home, they agree that they would rather enjoy two places than hurry through ten.|День насыщенный, но без спешки. В поезде домой они соглашаются: лучше насладиться двумя местами, чем торопливо пробежать десять.
+?Почему поездка только на день?|У друзей работа и занятия|Не было ночных поездов|Город был закрыт
+?Что они решили посетить?|Музей и реку|Все места в городе|Только магазины
+@story|Последний учебный день
+The course is almost over. Alex opens the first notes he wrote three months ago and reads them slowly.|Курс почти закончился. Алекс открывает свои первые заметки трёхмесячной давности и медленно читает.
+Some words that were difficult then are now easy. He can understand short conversations and tell a simple story.|Некоторые прежде трудные слова теперь лёгкие. Он понимает короткие разговоры и может рассказать простую историю.
+He still misses words in movies. Sometimes he needs to listen to a sentence twice, and that is fine.|В фильмах он всё ещё пропускает слова. Иногда нужно дважды прослушать предложение, и это нормально.
+Mia and Ben ask what he will do next. Alex says he will keep reviewing and watch a little English every day. This is a beginning, not an ending.|Мия и Бен спрашивают о дальнейших планах. Алекс продолжит повторения и будет каждый день немного смотреть на английском. Это начало, а не конец.
+?Стало ли Алексу всё понятно в фильмах?|Нет, часть слов ещё трудна|Да, абсолютно всё|Он больше не смотрит фильмы
+?Каков следующий шаг?|Повторять и регулярно слушать|Прекратить учёбу|Удалить весь прогресс
+@story|Копия на другом устройстве
+Ben changes his phone and wants to keep his English progress. Before putting the old phone away, he makes a copy.|Бен меняет телефон и хочет сохранить прогресс по английскому. Прежде чем убрать старый, он делает копию.
+He opens the program on the new phone and opens the file. His cards and study days appear again.|Он открывает приложение на новом телефоне и импортирует файл. Карточки и учебные дни появляются снова.
+Mia asks why he also saves data on the network. Ben explains that a local copy and data on the network help in different situations.|Мия спрашивает, зачем ему ещё синхронизация. Бен объясняет, что копия и синхронизация помогают в разных ситуациях.
+He keeps a recent file somewhere safe and checks that he can open it. A few minutes of work can save months of work.|Он хранит свежий файл в безопасном месте и проверяет, что тот открывается. Несколько минут подготовки могут сохранить месяцы работы.
+?Что Бен сделал до смены телефона?|Сохранил копию прогресса|Удалил приложение|Начал весь курс заново
+?Удалось ли вернуть карточки?|Да|Нет|Только на бумаге
+@story|Кино без перевода
+The friends choose a short scene from a movie they already know. This time they use English text instead of Russian.|Друзья выбирают короткую сцену из знакомого фильма. На этот раз они используют английский текст вместо русского.
+They first watch the whole scene without stopping. Then they play one difficult line again and check the words.|Сначала они смотрят сцену целиком без остановок. Затем повторяют трудную реплику и проверяют слова.
+Alex repeats the line with the same rhythm. Ben notices a word he has heard before but never understood.|Алекс повторяет реплику с тем же ритмом. Бен замечает слово, которое слышал раньше, но не понимал.
+They do not study every unknown word. They choose two useful phrases and watch the scene once more. It is easier to follow the second time.|Они не разбирают каждое незнакомое слово. Они выбирают две полезные фразы и пересматривают сцену. Во второй раз понимать легче.
+?Сколько полезных фраз выбрали друзья?|Две|Все незнакомые слова|Ни одной
+?Как изменилось понимание при повторе?|Стало легче|Стало хуже|Они не пересматривали
